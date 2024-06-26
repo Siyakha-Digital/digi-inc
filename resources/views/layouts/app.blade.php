@@ -3,15 +3,17 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-    <title>Digi Inc</title>
+    <title>The Digi Inc</title>
     <link rel="shortcut icon" href="assets/img/favicon.png">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
-    <link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/feather.css">
-    <link rel="stylesheet" href="assets/plugins/aos/aos.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/css/fontawesome.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/css/all.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/css/feather.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/css/aos.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css')}}">
+
+   <link rel="stylesheet" href="{{ asset('assets/css/styles.css')}}">
 </head>
 <body>
     <div class="main-wrapper">
@@ -26,11 +28,11 @@
                                 <span></span>
                             </span>
                         </a>
-                        <a href="index.html" class="navbar-brand logo">
-                            <img src="assets/img/logo.svg" class="img-fluid" alt="Logo">
+                        <a href="/" class="navbar-brand logo">
+                            <img src="https://radapps.co.za/digiinc/images/digi-inc-logo-01.png" class="img-fluid" alt="Logo">
                         </a>
-                        <a href="index.html" class="navbar-brand logo-small">
-                            <img src="assets/img/logo.svg" class="img-fluid" alt="Logo">
+                        <a href="/" class="navbar-brand logo-small">
+                            <img src="https://radapps.co.za/digiinc/images/digi-inc-logo-01.png" class="img-fluid" alt="Logo">
                         </a>
                     </div>
                     <div class="main-menu-wrapper">
@@ -45,6 +47,18 @@
                         <ul class="main-nav navbar-nav" id="scroll-nav">
                             <li class="nav-item">
                                 <a href="#index" class="nav-link active">Home</a>
+                            </li>
+                            <li class="has-submenu">
+                                <a href="javascript:void(0);">CoWork<i class="fas fa-chevron-down"></i></a>
+                                <ul class="submenu">
+                                    <li><a href="service.html">Gigs Grid</a></li>
+                                    <li><a href="service-grid-sidebar.html">Gig Left Sidebar</a></li>
+                                    <li><a href="service-details.html">Gig Details</a></li>
+                                    <li><a href="categories.html">Gig Category</a></li>
+                                    <li><a href="categories-2.html">Gig Category 2</a></li>
+                                    <li><a href="service-sub-category.html">Gig Subcategory</a></li>
+                                    <li><a href="add-gigs.html">Create a Gig</a></li>
+                                </ul>
                             </li>
                             <li class="nav-item">
                                 <a href="#demo" class="nav-link">Demos</a>
@@ -65,10 +79,10 @@
                     </div>
                     <ul class="nav header-navbar-rht">
                         <li class="nav-item">
-                            <a class="btn btn-primary" href="https://themeforest.net/item/dreamgigs-gig-service-selling-marketplace-bootstrap-html-template/51017661?" target="_blank">Buy Template</a>
+                            <a class="btn btn-primary" href="https://themeforest.net/item/dreamgigs-gig-service-selling-marketplace-bootstrap-html-template/51017661?" target="_blank">Register</a>
                         </li>
                         <li class="nav-item">
-                            <a class="btn btn-secondary" href="html/template/index.html" target="_blank">Live Demo</a>
+                            <a class="btn btn-secondary" href="html/template/index.html" target="_blank">Login</a>
                         </li>
                     </ul>
                 </nav>
@@ -87,15 +101,15 @@
             </a>
         </div>
     </div>
-    <script src="assets/js/jquery-3.7.1.min.js" type="42ab658cf140d6ef405ee4be-text/javascript"></script>
-    <script src="assets/js/bootstrap.bundle.min.js" type="42ab658cf140d6ef405ee4be-text/javascript"></script>
-    <script src="assets/js/bootstrap-scrollspy.js" type="42ab658cf140d6ef405ee4be-text/javascript"></script>
-    <script src="assets/js/feather.min.js" type="42ab658cf140d6ef405ee4be-text/javascript"></script>
-    <script src="assets/plugins/aos/aos.js" type="42ab658cf140d6ef405ee4be-text/javascript"></script>
-    <script src="assets/js/jquery.waypoints.js" type="42ab658cf140d6ef405ee4be-text/javascript"></script>
-    <script src="assets/js/jquery.counterup.min.js" type="42ab658cf140d6ef405ee4be-text/javascript"></script>
-    <script src="assets/js/owl.carousel.min.js" type="42ab658cf140d6ef405ee4be-text/javascript"></script>
-    <script src="assets/js/script.js" type="42ab658cf140d6ef405ee4be-text/javascript"></script>
+    <script src="{{ asset('assets/js/jquery-3.7.1.min.js')}}" type="42ab658cf140d6ef405ee4be-text/javascript"></script>
+    <script src="{{ asset('assets/js/bootstrap.bundle.min.js')}}" type="42ab658cf140d6ef405ee4be-text/javascript"></script>
+    <script src="{{ asset('assets/js/bootstrap-scrollspy.js')}}" type="42ab658cf140d6ef405ee4be-text/javascript"></script>
+    <script src="{{ asset('assets/js/feather.min.js')}}" type="42ab658cf140d6ef405ee4be-text/javascript"></script>
+    <script src="{{ asset('assets/js/aos.js')}}" type="42ab658cf140d6ef405ee4be-text/javascript"></script>
+    <script src="{{ asset('assets/js/jquery.waypoints.js')}}" type="42ab658cf140d6ef405ee4be-text/javascript"></script>
+    <script src="{{ asset('assets/js/jquery.counterup.min.js')}}" type="42ab658cf140d6ef405ee4be-text/javascript"></script>
+    <script src="{{ asset('assets/js/owl.carousel.min.js')}}" type="42ab658cf140d6ef405ee4be-text/javascript"></script>
+    <script src="{{ asset('assets/js/script.js')}}" type="42ab658cf140d6ef405ee4be-text/javascript"></script>
     <script type="42ab658cf140d6ef405ee4be-text/javascript">
         var Tawk_API = Tawk_API || {}
             , Tawk_LoadStart = new Date();
@@ -110,6 +124,6 @@
         })();
 
     </script>
-    <script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="42ab658cf140d6ef405ee4be-|49" defer></script>
+    <script src="{{ asset('assets/js/rocket-loader.min.js')}}" data-cf-settings="42ab658cf140d6ef405ee4be-|49" defer></script>
 </body>
 </html>

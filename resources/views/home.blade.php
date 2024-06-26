@@ -7,8 +7,8 @@
                 <div class="banner-content aos" data-aos="fade-up">
                     <div class="banner-head">
                         <h1>
-                            Premium <span>Gigs Service</span>
-                            Marketplace <br>HTML Template
+                            Empowering <span>Digital</span>
+                            Connections<br>
                         </h1>
                         <p>Whether you are aiming to launch a full-scale freelance platform or a niche job-posting site, DreamGigs is your go-to choice.</p>
                     </div>
@@ -32,8 +32,8 @@
                         </ul>
                     </div>
                     <div class="banner-btns d-inline-flex">
-                        <a href="https://themeforest.net/item/dreamgigs-gig-service-selling-marketplace-bootstrap-html-template/51017661?" target="_blank" class="btn btn-secondary">
-                            Purchase Template <i class="feather-play ms-2 me-0"></i>
+                        <a href="" target="_blank" class="btn btn-secondary">
+                            Get Started <i class="feather-play ms-2 me-0"></i>
                         </a>
                     </div>
                 </div>
@@ -42,7 +42,7 @@
                 <div class="banner-img">
                     <div class="banner-img-right">
                         <a href="#">
-                            <img src="assets/img/banner-img.svg" class="img-fluid" alt="Img">
+                            <img style="max-width: 500px !important;" src="https://sppagebuilder.com/images/2022/startup-company/hero-img1.png" class="img-fluid" alt="Img">
                         </a>
                     </div>
                 </div>
@@ -54,501 +54,249 @@
     <section class="freelancing-platform-sec" id="demo">
         <div class="container">
             <div class="section-header">
-                <h5>Perfectly Designed System</h5>
-                <h2>All in One Freelancing Template</h2>
+                <h5>Unleash the
+                    potential
+                    of Digi.Inc</h5>
+                <h2>All in One Co-Working & Freelancing Platform</h2>
             </div>
-            <div class="section-tab">
-                <ul class="nav nav-pills inner-tab" id="pills-tab" role="tablist" data-aos="fade-up">
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link active" id="pills-ltr-tab" data-bs-toggle="pill" data-bs-target="#pills-ltr" type="button" role="tab" aria-controls="pills-ltr" aria-selected="false">
-                            <img src="assets/img/icons/ltr-icon.svg" class="me-2" alt="Img">LTR Version
-                        </button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="pills-rtl-tab" data-bs-toggle="pill" data-bs-target="#pills-rtl" type="button" role="tab" aria-controls="pills-rtl" aria-selected="true">
-                            <img src="assets/img/icons/rtl-icon.svg" class="me-2" alt="Img">RTL Version
-                        </button>
-                    </li>
-                </ul>
-            </div>
-            <div class="tab-content dashboard-tab">
-                <div class="tab-pane fade show active" id="pills-ltr" role="tabpanel" aria-labelledby="pills-ltr-tab">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
                     <div class="row">
-                        <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
-                            <div class="inner-item">
-                                <div class="inner-img">
-                                    <a href="https://dreamgigs.dreamstechnologies.com/html/template/index.html" target="_blank" class="img-hover">
-                                        <img src="assets/img/inner-pages/inner-image-01.svg" class="img-fluid" alt="Img">
-                                    </a>
-                                    <ul class="overlay-list">
-                                        <li>
-                                            <ul>
-                                                <li>
-                                                    <a href="https://dreamgigs.dreamstechnologies.com/html/template/index.html" target="_blank">
-                                                        <img src="assets/img/icons/tech-icon-05.svg" alt="Img">HTML
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://dreamgigs.dreamstechnologies.com/laravel/template/public/" target="_blank">
-                                                        <img src="assets/img/icons/tech-icon-06.svg" alt="Img">Laravel
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://dreamgigs.dreamstechnologies.com/vue/template/" target="_blank">
-                                                        <img src="assets/img/icons/tech-icon-07.svg" alt="Img">Vue
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="inner-content">
-                                    <h4>
-                                        <a href="https://dreamgigs.dreamstechnologies.com/html/template/index.html" target="_blank">Front End Users</a>
-                                    </h4>
-                                </div>
+                        <div class="col-sm-6">
+                            <div class="about-inner-img">
+                                <img src="https://dreamgigs.dreamstechnologies.com/html/template/assets/img/aboutus/about-us-01.jpg" class="img-fluid" alt="img">
                             </div>
                         </div>
-                        <div class="col-md-6" data-aos="fade-up" data-aos-delay="600">
-                            <div class="inner-item">
-                                <div class="inner-img">
-                                    <a href="https://dreamgigs.dreamstechnologies.com/html/template/user-dashboard.html" target="_blank" class="img-hover">
-                                        <img src="assets/img/inner-pages/inner-image-02.svg" class="img-fluid" alt="Img">
-                                    </a>
-                                    <ul class="overlay-list">
-                                        <li>
-                                            <ul>
-                                                <li>
-                                                    <a href="https://dreamgigs.dreamstechnologies.com/html/template/user-dashboard.html" target="_blank">
-                                                        <img src="assets/img/icons/tech-icon-05.svg" alt="Img">HTML
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://dreamgigs.dreamstechnologies.com/laravel/template/public/user-dashboard" target="_blank">
-                                                        <img src="assets/img/icons/tech-icon-06.svg" alt="Img">Laravel
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://dreamgigs.dreamstechnologies.com/vue/template/user/user-dashboard" target="_blank">
-                                                        <img src="assets/img/icons/tech-icon-07.svg" alt="Img">Vue
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
+                        <div class="col-sm-6">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="about-inner-img">
+                                        <img src="https://dreamgigs.dreamstechnologies.com/html/template/assets/img/aboutus/about-us-02.jpg" class="img-fluid" alt="img">
+                                    </div>
                                 </div>
-                                <div class="inner-content">
-                                    <h4>
-                                        <a href="https://dreamgigs.dreamstechnologies.com/html/template/user-dashboard.html" target="_blank">User Dashboard</a>
-                                    </h4>
+                                <div class="col-sm-12">
+                                    <div class="about-inner-img">
+                                        <img src="https://dreamgigs.dreamstechnologies.com/html/template/assets/img/aboutus/about-us-03.jpg" class="img-fluid" alt="img">
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane fade" id="pills-rtl" role="tabpanel" aria-labelledby="pills-rtl-tab">
-                    <div class="row">
-                        <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
-                            <div class="inner-item">
-                                <div class="inner-img">
-                                    <a href="https://dreamgigs.dreamstechnologies.com/html/template-rtl/index.html" class="img-hover" target="_blank">
-                                        <img src="assets/img/inner-pages/rtl-01.svg" class="img-fluid" alt="Img">
-                                    </a>
-                                    <ul class="overlay-list">
-                                        <li>
-                                            <ul>
-                                                <li>
-                                                    <a href="https://dreamgigs.dreamstechnologies.com/html/template-rtl/index.html" target="_blank">
-                                                        <img src="assets/img/icons/tech-icon-05.svg" alt="Img">HTML
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://dreamgigs.dreamstechnologies.com/vue/template-rtl/" target="_blank">
-                                                        <img src="assets/img/icons/tech-icon-07.svg" alt="Img">Vue
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="inner-content">
-                                    <h4>
-                                        <a href="https://dreamgigs.dreamstechnologies.com/html/template-rtl/index.html" target="_blank">Front End Users</a>
-                                    </h4>
-                                </div>
-                            </div>
+                <div class="col-lg-6">
+                    <div class="about-us-info">
+                        <div class="about-us-head">
+                            {{-- <h6>About Us</h6>
+                            <h2>We Provide Best solutions For Your Business</h2> --}}
+                            <p>It connects digital and tech small businesses to Venture Capital Investors, competitions, investments and other opportunities.</p>
+                            <h5>Our CoWork</h5>
+                            <p>Search hub seamlessly links skilled individuals and digital enterprises with buyers looking for digital solutions for their businesses.
+                            </p>
+
+                            <h5>The CoLab marketplace</h5>
+                            <p>Allows SMMEs and individuals to find each other, share ideas and experiences, ask questions, and seek support and advice.
+                            </p>
+
+                            <p>
+                                Whether you are a developer, a branding expert, or are in agrotech, fintech or any other tech space, Digi Inc is your one-stop resource centre.
+
+                                And, thanks to our generous sponsor, all of these service come to you at no cost!
+                            </p>
                         </div>
-                        <div class="col-md-6" data-aos="fade-up" data-aos-delay="600">
-                            <div class="inner-item">
-                                <div class="inner-img">
-                                    <a href="https://dreamgigs.dreamstechnologies.com/html/template-rtl/user-dashboard.html" class="img-hover">
-                                        <img src="assets/img/inner-pages/rtl-02.svg" class="img-fluid" alt="Img">
-                                    </a>
-                                    <ul class="overlay-list">
-                                        <li>
-                                            <ul>
-                                                <li>
-                                                    <a href="https://dreamgigs.dreamstechnologies.com/html/template-rtl/user-dashboard.html" target="_blank">
-                                                        <img src="assets/img/icons/tech-icon-05.svg" alt="Img">HTML
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://dreamgigs.dreamstechnologies.com/vue/template-rtl/user/user-dashboard" target="_blank">
-                                                        <img src="assets/img/icons/tech-icon-07.svg" alt="Img">Vue
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="inner-content">
-                                    <h4>
-                                        <a href="https://dreamgigs.dreamstechnologies.com/html/template-rtl/user-dashboard.html">User Dashboard</a>
-                                    </h4>
-                                </div>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+    <section class="about-us-section">
+        <div class="container">
+
         </div>
     </section>
     <section class="product-features-sec" id="inner-page">
         <div class="container">
             <div class="section-header">
-                <h5>Front End & User Dashboard Screens</h5>
-                <h2>Introducing Advanced Modules for your
-                    Freelancer Management System</h2>
-            </div>
-            <div class="section-tab">
-                <ul class="nav nav-pills inner-tab" id="pills-tab" role="tablist" data-aos="fade-up">
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link active" id="pills-front-end-tab" data-bs-toggle="pill" data-bs-target="#pills-front-end" type="button" role="tab" aria-controls="pills-front-end" aria-selected="false">
-                            <img src="assets/img/icons/layout.svg" class="me-2" alt="Img">Front End Features
-                        </button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="pills-admin-tab" data-bs-toggle="pill" data-bs-target="#pills-admin" type="button" role="tab" aria-controls="pills-admin" aria-selected="true">
-                            <img src="assets/img/icons/user-shield.svg" class="me-2" alt="Img">User Dashboard Screens
-                        </button>
-                    </li>
-                </ul>
-            </div>
-            <div class="tab-content dashboard-tab">
-                <div class="tab-pane fade show active" id="pills-front-end" role="tabpanel" aria-labelledby="pills-front-end-tab">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6 aos" data-aos="fade-up">
-                            <div class="inner-page">
-                                <div class="inner-img">
-                                    <a href="html/template/about-us.html">
-                                        <img src="assets/img/inner-pages/inner-img-03.svg" class="img-fluid" alt>
-                                    </a>
-                                </div>
-                                <div class="inner-content">
-                                    <h4>
-                                        <a href="html/template/about-us.html">About Us</a>
-                                    </h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 aos" data-aos="fade-up">
-                            <div class="inner-page">
-                                <div class="inner-img">
-                                    <a href="html/template/service.html">
-                                        <img src="assets/img/inner-pages/inner-img-04.svg" class="img-fluid" alt>
-                                    </a>
-                                </div>
-                                <div class="inner-content">
-                                    <h4>
-                                        <a href="html/template/service.html">Services</a>
-                                    </h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 aos" data-aos="fade-up">
-                            <div class="inner-page">
-                                <div class="inner-img">
-                                    <a href="html/template/team.html">
-                                        <img src="assets/img/inner-pages/inner-img-05.svg" class="img-fluid" alt>
-                                    </a>
-                                </div>
-                                <div class="inner-content">
-                                    <h4>
-                                        <a href="html/template/team.html">Team</a>
-                                    </h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 aos" data-aos="fade-up">
-                            <div class="inner-page">
-                                <div class="inner-img">
-                                    <a href="html/template/blog-2-grid.html">
-                                        <img src="assets/img/inner-pages/inner-img-06.svg" class="img-fluid" alt>
-                                    </a>
-                                </div>
-                                <div class="inner-content">
-                                    <h4>
-                                        <a href="html/template/blog-2-grid.html">Blog Grid</a>
-                                    </h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 aos" data-aos="fade-up">
-                            <div class="inner-page">
-                                <div class="inner-img">
-                                    <a href="html/template/team-carousel.html">
-                                        <img src="assets/img/inner-pages/inner-img-07.svg" class="img-fluid" alt>
-                                    </a>
-                                </div>
-                                <div class="inner-content">
-                                    <h4>
-                                        <a href="html/template/team-carousel.html">Testimonials</a>
-                                    </h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 aos" data-aos="fade-up">
-                            <div class="inner-page">
-                                <div class="inner-img">
-                                    <a href="html/template/contact-us.html">
-                                        <img src="assets/img/inner-pages/inner-img-08.svg" class="img-fluid" alt>
-                                    </a>
-                                </div>
-                                <div class="inner-content">
-                                    <h4>
-                                        <a href="html/template/contact-us.html">Contact Us</a>
-                                    </h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="pills-admin" role="tabpanel" aria-labelledby="pills-admin-tab">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6">
-                            <div class="inner-page">
-                                <div class="inner-img">
-                                    <a href="html/template/user-gigs.html">
-                                        <img src="assets/img/inner-pages/inner-img-09.svg" class="img-fluid" alt>
-                                    </a>
-                                </div>
-                                <div class="inner-content">
-                                    <h4>
-                                        <a href="html/template/user-gigs.html">Manage Gigs</a>
-                                    </h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="inner-page">
-                                <div class="inner-img">
-                                    <a href="html/template/user-wishlist.html">
-                                        <img src="assets/img/inner-pages/inner-img-10.svg" class="img-fluid" alt>
-                                    </a>
-                                </div>
-                                <div class="inner-content">
-                                    <h4>
-                                        <a href="html/template/user-wishlist.html">Wishlist</a>
-                                    </h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="inner-page">
-                                <div class="inner-img">
-                                    <a href="html/template/user-reviews.html">
-                                        <img src="assets/img/inner-pages/inner-img-11.svg" class="img-fluid" alt>
-                                    </a>
-                                </div>
-                                <div class="inner-content">
-                                    <h4>
-                                        <a href="html/template/user-reviews.html">Reviews</a>
-                                    </h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="inner-page">
-                                <div class="inner-img">
-                                    <a href="html/template/user-message.html">
-                                        <img src="assets/img/inner-pages/inner-img-12.svg" class="img-fluid" alt>
-                                    </a>
-                                </div>
-                                <div class="inner-content">
-                                    <h4>
-                                        <a href="html/template/user-message.html">Chat</a>
-                                    </h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="inner-page">
-                                <div class="inner-img">
-                                    <a href="html/template/user-profile.html">
-                                        <img src="assets/img/inner-pages/inner-img-13.svg" class="img-fluid" alt>
-                                    </a>
-                                </div>
-                                <div class="inner-content">
-                                    <h4>
-                                        <a href="html/template/user-profile.html">Profile</a>
-                                    </h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="inner-page">
-                                <div class="inner-img">
-                                    <a href="html/template/user-settings.html">
-                                        <img src="assets/img/inner-pages/inner-img-14.svg" class="img-fluid" alt>
-                                    </a>
-                                </div>
-                                <div class="inner-content">
-                                    <h4>
-                                        <a href="html/template/user-settings.html">Settings</a>
-                                    </h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="faq-sec" id="other-technologies">
-        <div class="container">
-            <div class="section-header aos" data-aos="fade-up">
-                <h5>Coming Soon in</h5>
-                <h2>Other Technologies</h2>
+                <h5>Programme</h5>
+                <h2>Sponsor</h2>
             </div>
             <div class="row aos" data-aos="fade-up">
                 <div class="col-xl-2 col-lg-3 d-flex">
                     <div class="features-round text-center flex-fill">
                         <a href="https://themeforest.net/item/dreamgigs-gig-service-selling-marketplace-bootstrap-html-template/51017661" target="_blank">
                             <div class="features-content">
-                                <h5>HTML</h5>
+                                <h5>Orange</h5>
                                 <div class="features-img">
-                                    <img src="assets/img/icons/html-icon.svg" alt="Img">
+                                    <img width="200px" height="155px" src="https://radapps.co.za/digiinc/images/programme-partners/orange-business-services.png" alt="Img">
                                 </div>
-                                <span class="btn buy-btn">Buy Now</span>
+                                <span class="btn buy-btn">View</span>
                             </div>
                         </a>
                     </div>
                 </div>
-                <div class="col-xl-2 col-lg-3 d-flex">
-                    <div class="features-round text-center flex-fill">
-                        <a href="https://themeforest.net/item/dreamgigs-gig-service-selling-marketplace-bootstrap-html-template/51017661" target="_blank">
-                            <div class="features-content">
-                                <h5>Laravel</h5>
-                                <div class="features-img">
-                                    <img src="assets/img/icons/laravel-icon.svg" alt="Img">
-                                </div>
-                                <span class="btn buy-btn">Buy Now</span>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xl-2 col-lg-3 d-flex">
-                    <div class="features-round text-center flex-fill coimgsoon">
-                        <a href="https://preview.themeforest.net/item/dreamgigs-gig-service-selling-marketplace-bootstrap-html-template/full_screen_preview/51017661" target="_blank">
-                            <div class="features-content">
-                                <h5>React</h5>
-                                <div class="features-img">
-                                    <img src="assets/img/icons/react-icon.svg" alt="Img">
-                                </div>
-                                <span class="btn btn-coming">Coming Soon</span>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xl-2 col-lg-3 d-flex">
-                    <div class="features-round text-center flex-fill coimgsoon">
-                        <a href="https://preview.themeforest.net/item/dreamgigs-gig-service-selling-marketplace-bootstrap-html-template/full_screen_preview/51017661">
-                            <div class="features-content">
-                                <h5>Angular</h5>
-                                <div class="features-img">
-                                    <img src="assets/img/icons/angular-icon.svg" alt="Img">
-                                </div>
-                                <span class="btn btn-coming">Coming Soon</span>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xl-2 col-lg-3 d-flex">
-                    <div class="features-round text-center flex-fill">
-                        <a href="https://themeforest.net/item/dreamgigs-gig-service-selling-marketplace-bootstrap-html-template/51017661" target="_blank">
-                            <div class="features-content">
-                                <h5>Vue</h5>
-                                <div class="features-img">
-                                    <img src="assets/img/icons/vue-icon.svg" alt="Img">
-                                </div>
-                                <span class="btn buy-btn">Buy Now</span>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xl-2 col-lg-3 d-flex">
-                    <div class="features-round text-center flex-fill comingsoon-disable coimgsoon">
-                        <a href="javascript:void(0);">
-                            <div class="features-content">
-                                <h5>PHP</h5>
-                                <div class="features-img">
-                                    <img src="assets/img/icons/php-icon.svg" alt="Img">
-                                </div>
-                                <span class="btn btn-coming">Coming Soon</span>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+
             </div>
+
+
         </div>
     </section>
+    <br>
     <section class="faq-sec pt-0" id="faq">
         <div class="container aos" data-aos="fade-up">
             <div class="section-header">
-                <h5>FAQ</h5>
-                <h2>Questions we get asked</h2>
+                <h5>The Power Of </h5>
+                <h2>Digital Collaboration</h2>
             </div>
             <div class="row justify-content-center aos" data-aos="fade-up">
                 <div class="col-lg-10">
                     <div class="faq-card aos" data-aos="fade-down" data-aos-delay="600">
                         <h4 class="faq-title">
-                            <a data-bs-toggle="collapse" href="#faqOne" aria-expanded="false">What currencies does the DreamGigs theme work with?</a>
+                            <a data-bs-toggle="collapse" href="#faqOne" aria-expanded="false">Community</a>
                         </h4>
                         <div id="faqOne" class="card-collapse collapse show" data-bs-parent="#accordionExample">
-                            <p>You can sell and accept payments in many currencies, depending on what payment providers (also known as third party payment processors or payment gateways) you use.</p>
+                            <p>Join a discussion group, or create your own – bounce ideas and learn from each other</p>
                         </div>
                     </div>
                     <div class="faq-card aos" data-aos="fade-down">
                         <h4 class="faq-title">
-                            <a class="collapsed" data-bs-toggle="collapse" href="#faqtwo" aria-expanded="false">Any Modules can be customized?</a>
+                            <a class="collapsed" data-bs-toggle="collapse" href="#faqtwo" aria-expanded="false">Newsfeed</a>
                         </h4>
                         <div id="faqtwo" class="card-collapse collapse" data-bs-parent="#accordionExample">
-                            <p>You can sell and accept payments in many currencies, depending on what payment providers (also known as third party payment processors or payment gateways) you use.</p>
+                            <p>Links to the latest technical developments and innovations from around the world – comparing products, conducting technical reviews, and asking questions about product compatibility or preferences.</p>
                         </div>
                     </div>
                     <div class="faq-card aos" data-aos="fade-down">
                         <h4 class="faq-title">
-                            <a class="collapsed" data-bs-toggle="collapse" href="#faqthree" aria-expanded="false">what are the payment gateway Supports?</a>
+                            <a class="collapsed" data-bs-toggle="collapse" href="#faqthree" aria-expanded="false">Learning</a>
                         </h4>
                         <div id="faqthree" class="card-collapse collapse" data-bs-parent="#accordionExample">
-                            <p>You can sell and accept payments in many currencies, depending on what payment providers (also known as third party payment processors or payment gateways) you use.</p>
+                            <p>Tap into our expert blogs and opinion pieces, link into training courses at reduced prices
+
+                                Blogs and articles from subject matter experts, technical training at reduced prices for Digi Inc members</p>
                         </div>
                     </div>
-                    <div class="faq-card aos" data-aos="fade-down">
+                    {{-- <div class="faq-card aos" data-aos="fade-down">
                         <h4 class="faq-title">
                             <a class="collapsed" data-bs-toggle="collapse" href="#faqfour" aria-expanded="false">What are the other Platforms customize can be done?</a>
                         </h4>
                         <div id="faqfour" class="card-collapse collapse" data-bs-parent="#accordionExample">
                             <p>You can sell and accept payments in many currencies, depending on what payment providers (also known as third party payment processors or payment gateways) you use.</p>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
     </section>
+    <section class="contact-section">
+
+        <div class="contact-bottom bg-white">
+            <div class="container">
+                <div class="row justify-content-center">
+
+                    <div class="col-lg-4 col-md-6 d-flex">
+                        <div class="contact-grid w-100">
+                            <div class="contact-content">
+                                <div class="contact-icon">
+                                    <span>
+                                        <img src="https://dreamgigs.dreamstechnologies.com/html/template/assets/img/icons/contact-mail.svg" alt="Icon">
+                                    </span>
+                                </div>
+                                <div class="contact-details">
+                                    <h6>Email Address</h6>
+                                    <p><a href="javascript:void(0);">info@digiinc.co.za</a></p>
+                                    <p><a href="javascript:void(0);">support@digiinc.co.za</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 d-flex">
+                        <div class="contact-grid w-100">
+                            <div class="contact-content">
+                                <div class="contact-icon">
+                                    <span>
+                                        <img src="https://dreamgigs.dreamstechnologies.com/html/template/assets/img/icons/contact-phone.svg" alt="Icon">
+                                    </span>
+                                </div>
+                                <div class="contact-details">
+                                    <h6>Phone Number</h6>
+                                    <p>+1 81649 48103</p>
+                                    <p>+1 78301 71940</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 d-flex">
+                        <div class="contact-grid w-100">
+                            <div class="contact-content">
+                                <div class="contact-icon">
+                                    <span>
+                                        <img src="https://dreamgigs.dreamstechnologies.com/html/template/assets/img/icons/contact-map.svg" alt="Icon">
+                                    </span>
+                                </div>
+                                <div class="contact-details contact-details-address">
+                                    <h6>Address</h6>
+                                    <p>367 Hillcrest Lane, Irvine, California, United Sates</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="contact-top pt-0">
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <div class="col-lg-6 col-md-12 d-flex">
+                        <div class="contact-img">
+                            <img src="https://radapps.co.za/digiinc/images/digi-inc-logo-01.png" class="img-fluid" alt="img">
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-6 col-md-12 d-flex">
+                        <div class="team-form w-100">
+                            <div class="team-form-heading">
+                                <h3>Get in Touch</h3>
+                                <p>How can help I you? Please write down your query</p>
+                            </div>
+                            <form action="#">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Subject">
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Your Message"></textarea>
+                                </div>
+                                <div class="form-group mb-0">
+                                    <button type="submit" class="btn btn-primary">Send Message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        
+    </section>
+    <br>
     <footer class="footer">
         <div class="container">
-            <div class="footer-top">
+            {{-- <div class="footer-top">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="footer-widget author-logo">
@@ -587,7 +335,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
             <div class="footer-bottom">
                 <div class="copy-right">
                     <p>
@@ -595,7 +343,7 @@
                             document.write(new Date().getFullYear())
 
                         </script>
-                        DreamGigs. All rights reserved.
+                        DigiInc. All rights reserved.
                     </p>
                 </div>
                 <div class="footer-links">
