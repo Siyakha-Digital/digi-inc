@@ -265,7 +265,7 @@
                         <div class="team-form w-100">
                             <div class="team-form-heading">
                                 <h3>Get in Touch</h3>
-                                <p>How can help I you? Please write down your query</p>
+                                <p>Ready to dive into the digital realm? Don’t miss out – join Digi.Inc now!</p>
                             </div>
                             <form action="#">
                                 <div class="form-group">
