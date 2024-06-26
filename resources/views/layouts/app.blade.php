@@ -32,11 +32,11 @@
                         </a>
 
                         {{-- Application Logo --}}
-                        <a href="/" class="navbar-brand logo">
+                        <a href="{{route('home')}}" class="navbar-brand logo">
                             <img src="https://radapps.co.za/digiinc/images/digi-inc-logo-01.png" class="img-fluid" alt="Logo">
                         </a>
                         {{-- Application Name Logo Style --}}
-                        <a href="/" class="navbar-brand logo-small">
+                        <a href="{{route('home')}}" class="navbar-brand logo-small">
                             <img src="https://radapps.co.za/digiinc/images/digi-inc-logo-01.png" class="img-fluid" alt="Logo">
                         </a>
                     </div>
@@ -53,17 +53,24 @@
                             </a>
                         </div>
                         <ul class="main-nav navbar-nav" id="scroll-nav">
+                            <li class="has-submenu">
+                                <a href="javascript:void(0);">Newsfeed<i class="fas fa-chevron-down"></i></a>
+                                <ul class="submenu">
+                                    <li><a href="#">News</a></li>
+                                </ul>
+                            </li>
                             <li class="nav-item">
-                                <a href="{{route('home')}}" class="nav-link active">Home</a>
+                                <a href="{{route('colab')}}" class="nav-link">CoLab</a>
+                            </li>
+                            <li class="has-submenu">
+                                <a href="{{route('codesk')}}">CoDesk<i class="fas fa-chevron-down"></i></a>
+                                <ul class="submenu">
+                                    <li><a href="#">Cape Town</a></li>
+                                    <li><a href="#">Sandton</a></li>
+                                </ul>
                             </li>
                             <li class="nav-item">
                                 <a href="{{route('cowork')}}" class="nav-link">CoWork</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="{{route('codesk')}}" class="nav-link">CoDesk</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="{{route('news-feed')}}" class="news-feed">Newsfeed</a>
                             </li>
                             <li class="nav-item">
                                 <a href="{{route('tools')}}" class="news-feed">Tools</a>
