@@ -54,7 +54,7 @@
                         </div>
                         <ul class="main-nav navbar-nav" id="scroll-nav">
                             <li class="has-submenu">
-                                <a href="javascript:void(0);">Newsfeed<i class="fas fa-chevron-down"></i></a>
+                                <a href="{{route('news-feed')}}">Newsfeed<i class="fas fa-chevron-down"></i></a>
                                 <ul class="submenu">
                                     <li><a href="#">News</a></li>
                                 </ul>
@@ -87,13 +87,13 @@
                                     <li><a href="service-sub-category.html">Gig Subcategory</a></li>
                                     <li><a href="add-gigs.html">Create a Gig</a></li>
                                 </ul> --}}
-                            </li>
+                            {{-- </li>
                             <li class="nav-item responsive-link">
                                 <a href="javascript:void(0);" class="nav-link">Buy Template</a>
                             </li>
                             <li class="nav-item responsive-link">
                                 <a href="html/template/index.html" target="_blank" class="nav-link">Live Demo</a>
-                            </li>
+                            </li> --}}
                         </ul>
                     </div>
 
