@@ -14,9 +14,31 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    redirect()->route('home');
 });
 
 Route::get('/home', function () {
     return view('home');
-});
+})->name('home');
+
+
+Route::get('/news-feed', function () {
+    return view('news-feed');
+})->name('news-feed');
+
+// make routes for : cowork, colab, codesk & tools
+Route::get('/cowork', function () {
+    return view('cowork');
+})->name('cowork');
+
+Route::get('/colab', function () {
+    return view('colab');
+})->name('colab');
+
+Route::get('/codesk', function () {
+    return view('codesk');
+})->name('codesk');
+
+Route::get('/tools', function () {
+    return view('tools');
+})->name('tools');
