@@ -4287,19 +4287,36 @@ html.menu-opened body {
 	display: inline-block;
 	margin-right: 5px;
 }
-.blog-content-footer .read-more {
+
+.blog-content-footer {
 	font-weight: 600;
 	color: #4F4F4F;
 	display: inline-flex;
 	align-items: center;
 }
-.blog-content-footer .read-more:hover {
+
+.read-more{
+
+	font-weight: 600;
+	color: #ff6900;
+	display: inline-flex;
+	align-items: center;
+
+}
+
+.read-more:hover{
+	text-decoration: underline;
+}
+
+.blog-content-footer {
 	color: #000000;
 }
+
 .blog-content-footer .read-more span {
 	line-height: normal;
 	margin-left: 5px;
 }
+
 .blog-sidebar .card {
 	border: 0;
 	border-radius: 10px;
@@ -15013,4 +15030,5 @@ html.menu-opened body {
 		min-width: 180px;
 	}
 }
- 
+
+/* Other Custom Styles */
