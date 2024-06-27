@@ -52,6 +52,7 @@
                                 </i>
                             </a>
                         </div>
+                        
                         <ul class="main-nav navbar-nav" id="scroll-nav">
                             <li class="has-submenu">
                                 <a href="{{route('news-feed')}}">Newsfeed<i class="fas fa-chevron-down"></i></a>

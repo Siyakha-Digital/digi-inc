@@ -2470,7 +2470,7 @@ html.menu-opened body {
 	font-size: 20px;
 }
 .footer-bottom {
-	border-top: 1px solid #363636;
+	border-top: 1px solid #000000;
 	margin-top: 20px;
 	padding-top: 20px;
 	display: flex;

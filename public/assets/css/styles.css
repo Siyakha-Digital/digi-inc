@@ -6842,8 +6842,9 @@ html.menu-opened body {
 	margin-bottom: 15px;
 }
 .footer-bottom {
-	background: #1D1D1D;
+	background: #000000;
 	padding: 20px 0;
+	padding-right: 25px;
 }
 .footer-bottom-links ul {
 	display: flex;
