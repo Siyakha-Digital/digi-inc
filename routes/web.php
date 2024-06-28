@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    redirect()->route('home');
+    return redirect()->route('home');
 });
 
 Route::get('/home', function () {

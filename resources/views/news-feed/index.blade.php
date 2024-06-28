@@ -2,6 +2,7 @@
 
 $posts = [
     [
+        'id' => '1',
         'title' => 'The Best Way to Find a Job',
         'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel eros sit amet arcu vestibulum accumsan in in leo.',
         'img' => 'https://dreamgigs.dreamstechnologies.com/html/template/assets/img/blog/blog-01.jpg',
@@ -9,6 +10,7 @@ $posts = [
         'category' => 'Entrepreneurship'
     ],
     [
+        'id' => '2',
         'title' => 'Aligning to your Industry',
         'description' => 'A critical success factor for SMMEs is to learn from your peers, network within your industry and collaborate with people you trust to build scale and experience. An excellent way to do this is by j...',
         'img' => 'https://radapps.co.za/digiinc/images/Article%20Images/jacques-nel-f0RvpwF-iXE-unsplash-scaled.jpg',
@@ -16,6 +18,7 @@ $posts = [
         'category' => 'Entrepreneurship'
     ],
     [
+        'id' => '3',
         'title' => 'BRICS 2023 South Africa – And Why It Matters for SMMEs',
         'description' => 'The meeting of BRICS was held in Johannesburg during the week of the 22 – 24 of August 2023 after much controversy around the attendance of the President of Russia, Vladimir Putin. ...',
         'img' => 'https://radapps.co.za/digiinc/images/Article%20Images/6th%20art.jpg',
@@ -23,6 +26,7 @@ $posts = [
         'category' => 'Entrepreneurship'
     ],
     [
+        'id' => '4',
         'title' => 'Working “on” your business: The key to entrepreneurial growth',
         'description' => 'By understanding the difference between working "in" and "on" your business, setting aside dedicated time, delegating tasks, developing efficient systems, continuously learning, seeking outside pers...',
         'img' => 'https://radapps.co.za/digiinc/images/Article%20Images/2nd%20art.png',
