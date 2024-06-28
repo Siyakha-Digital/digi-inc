@@ -18,27 +18,27 @@ Route::get('/', function () {
 });
 
 Route::get('/home', function () {
-    return view('home');
+    return view('home.index');
 })->name('home');
 
 
 Route::get('/news-feed', function () {
-    return view('news-feed');
+    return view('news-feed.index');
 })->name('news-feed');
 
 // make routes for : cowork, colab, codesk & tools
 Route::get('/cowork', function () {
-    return view('cowork');
+    return view('cowork.index');
 })->name('cowork');
 
 Route::get('/colab', function () {
-    return view('colab');
+    return view('colab.index');
 })->name('colab');
 
 Route::get('/codesk', function () {
-    return view('codesk');
+    return view('codesk.index');
 })->name('codesk');
 
 Route::get('/tools', function () {
-    return view('tools');
+    return view('tools.index');
 })->name('tools');
