@@ -47,7 +47,7 @@
                                     stroke-linejoin="round" />
                             </svg></a>
                         <ul class="submenu">
-                            <li><a href="{{ route('news-feed') }}">News</a></li>
+                            <li><a href="{{ route('inews') }}">News</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">

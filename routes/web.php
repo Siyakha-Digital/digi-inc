@@ -26,6 +26,11 @@ Route::get('/news-feed', function () {
     return view('news-feed.index');
 })->name('news-feed');
 
+// /news-feed/inews
+Route::get('/news-feed/inews', function () {
+    return view('news-feed.inews');
+})->name('inews');
+
 // make routes for : cowork, colab, codesk & tools
 Route::get('/cowork', function () {
     return view('cowork.index');

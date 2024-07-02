@@ -94,13 +94,13 @@
                     <nav aria-label="breadcrumb" class="page-breadcrumb">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item">
-                                <a href="index.html">Home</a>
+                                <a href="{{route('home')}}">Home</a>
                             </li>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 4L10 8L6 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>
                             <li class="breadcrumb-item" aria-current="page">
-                                <svg width="12" height="12" viewBox="0 0 16 16" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M30 20 L70 50 L30 80" stroke="black" stroke-width="10" fill="none" />
-                                </svg>Newsfeed
+                                Newsfeed
                             </li>
                         </ol>
                     </nav>
@@ -175,12 +175,17 @@
 
                         </div>
 
+                        
                         {{-- Pagination --}}
+                        {{-- //TODO: Pagination still needs to be implemented, currently, all blogs are listed here. Only 4 should be shown in each page  --}}
                         <div class="pagination">
                             <ul>
                                 <li>
-                                    <a href="javascript:void(0);" class="previous"><i
-                                            class="fa-solid fa-chevron-left"></i></a>
+                                    <a href="javascript:void(0);" class="previous"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg></a>
                                 </li>
                                 <li>
                                     <a href="javascript:void(0);" class="active">1</a>
@@ -198,8 +203,9 @@
                                     <a href="javascript:void(0);">5</a>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0);" class="next"><i
-                                            class="fa-solid fa-chevron-right"></i></a>
+                                    <a href="javascript:void(0);" class="next"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></a>
                                 </li>
                             </ul>
                         </div>
@@ -303,19 +309,5 @@
 <br>
 {{-- Footer Section --}}
 @include('components.footer ')
-
-<script>
-    // JavaScript to toggle the display of the viewall-one element
-    document.getElementById('viewall-button-one').addEventListener('click', function() {
-        var viewAllOne = document.getElementById('viewall-one');
-        if (viewAllOne.style.display === 'none' || viewAllOne.style.display === '') {
-            viewAllOne.style.display = 'block';
-            this.textContent = 'View Less';
-        } else {
-            viewAllOne.style.display = 'none';
-            this.textContent = 'View All';
-        }
-    });
-</script>
 
 @endsection
