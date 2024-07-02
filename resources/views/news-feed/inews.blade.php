@@ -1,78 +1,79 @@
 @php
     // Example Data
     // Blog Posts
-$posts = [
-    [
-        'id' => '1',
-        'title' => 'The Best Way to Find a Job',
-        'img' => 'https://dreamgigs.dreamstechnologies.com/html/template/assets/img/blog/blog-01.jpg',
-        'date' => '12th May 2021',
-        'category' => 'Entrepreneurship',
-    ],
-    [
-        'id' => '2',
-        'title' => 'Aligning to your Industry',
-        'img' => 'https://radapps.co.za/digiinc/images/Article%20Images/jacques-nel-f0RvpwF-iXE-unsplash-scaled.jpg',
-        'date' => '16 October 2023',
-        'category' => 'Entrepreneurship',
-    ],
-    [
-        'id' => '3',
-        'title' => 'BRICS 2023 South Africa – And Why It Matters for SMMEs',
-        'img' => 'https://radapps.co.za/digiinc/images/Article%20Images/6th%20art.jpg',
-        'date' => '28 August 2023',
-        'category' => 'Entrepreneurship',
-    ],
-    [
-        'id' => '4',
-        'title' => 'Working “on” your business: The key to entrepreneurial growth',
-        'img' => 'https://radapps.co.za/digiinc/images/Article%20Images/2nd%20art.png',
-        'date' => '24 August 2023',
-        'category' => 'Entrepreneurship',
-    ],
-    [
-        'id' => '5',
-        'title' => 'The right time to grow: A guide for entrepreneurs',
-        'img' => 'https://radapps.co.za/digiinc/images/Article%20Images/7th%20art.jpg',
-        'date' => '22 August 2023',
-        'category' => 'Entrepreneurship',
-    ],
-    [
-        'id' => '6',
-        'title' => 'Understanding the distinction: Entrepreneur vs sole proprietor',
-        'img' => 'https://radapps.co.za/digiinc/images/Article%20Images/8th%20art.jpg',
-        'date' => '21 August 2023',
-        'category' => 'Entrepreneurship',
-    ],
-    // [
-    //     'id' => '7',
-    //     'title' => 'Moving from the development to excellence phase: A journey towards entrepreneurial success',
-    //     'img' => 'https://radapps.co.za/digiinc/images/Article%20Images/9th%20art.jpg',
-    //     'date' => '18 August 2023',
-    //     'category' => 'Entrepreneurship',
-    // ],
-    // [
-    //     'id' => '8',
-    //     'title' => 'Mastering the art of interviewing potential employees: A guide for entrepreneurs',
-    //     'img' => 'https://radapps.co.za/digiinc/images/Article%20Images/10th%20art.jpg',
-    //     'date' => '16 August 2023',
-    //     'category' => 'Management',
-    // ],
-    // [
-    //     'id' => '9',
-    //     'title' => 'Recognising the signs: When to know your entrepreneurial journey is over',
-    //     'img' => 'https://radapps.co.za/digiinc/images/Article%20Images/11th%20art.jpg',
-    //     'date' => '14 August 2023',
-    //     'category' => 'Entrepreneurship',
-    // ],
-    // [
-    //     'id' => '10',
-    //     'title' => 'Creating an environment for entrepreneurial success: key ingredients for growth',
-    //     'img' => 'https://radapps.co.za/digiinc/images/Article%20Images/12th%20art.jpg',
-    //     'date' => '13 August 2023',
-    //     'category' => 'Entrepreneurship',
-    // ],
-];
+    $posts = [
+        [
+            'id' => '1',
+            'title' => 'The Best Way to Find a Job',
+            'img' => 'https://dreamgigs.dreamstechnologies.com/html/template/assets/img/blog/blog-01.jpg',
+            'date' => '12th May 2021',
+            'category' => 'Entrepreneurship',
+        ],
+        [
+            'id' => '2',
+            'title' => 'Aligning to your Industry',
+            'img' =>
+                'https://radapps.co.za/digiinc/images/Article%20Images/jacques-nel-f0RvpwF-iXE-unsplash-scaled.jpg',
+            'date' => '16 October 2023',
+            'category' => 'Entrepreneurship',
+        ],
+        [
+            'id' => '3',
+            'title' => 'BRICS 2023 South Africa – And Why It Matters for SMMEs',
+            'img' => 'https://radapps.co.za/digiinc/images/Article%20Images/6th%20art.jpg',
+            'date' => '28 August 2023',
+            'category' => 'Entrepreneurship',
+        ],
+        [
+            'id' => '4',
+            'title' => 'Working “on” your business: The key to entrepreneurial growth',
+            'img' => 'https://radapps.co.za/digiinc/images/Article%20Images/2nd%20art.png',
+            'date' => '24 August 2023',
+            'category' => 'Entrepreneurship',
+        ],
+        [
+            'id' => '5',
+            'title' => 'The right time to grow: A guide for entrepreneurs',
+            'img' => 'https://radapps.co.za/digiinc/images/Article%20Images/7th%20art.jpg',
+            'date' => '22 August 2023',
+            'category' => 'Entrepreneurship',
+        ],
+        [
+            'id' => '6',
+            'title' => 'Understanding the distinction: Entrepreneur vs sole proprietor',
+            'img' => 'https://radapps.co.za/digiinc/images/Article%20Images/8th%20art.jpg',
+            'date' => '21 August 2023',
+            'category' => 'Entrepreneurship',
+        ],
+        // [
+        //     'id' => '7',
+        //     'title' => 'Moving from the development to excellence phase: A journey towards entrepreneurial success',
+        //     'img' => 'https://radapps.co.za/digiinc/images/Article%20Images/9th%20art.jpg',
+        //     'date' => '18 August 2023',
+        //     'category' => 'Entrepreneurship',
+        // ],
+        // [
+        //     'id' => '8',
+        //     'title' => 'Mastering the art of interviewing potential employees: A guide for entrepreneurs',
+        //     'img' => 'https://radapps.co.za/digiinc/images/Article%20Images/10th%20art.jpg',
+        //     'date' => '16 August 2023',
+        //     'category' => 'Management',
+        // ],
+        // [
+        //     'id' => '9',
+        //     'title' => 'Recognising the signs: When to know your entrepreneurial journey is over',
+        //     'img' => 'https://radapps.co.za/digiinc/images/Article%20Images/11th%20art.jpg',
+        //     'date' => '14 August 2023',
+        //     'category' => 'Entrepreneurship',
+        // ],
+        // [
+        //     'id' => '10',
+        //     'title' => 'Creating an environment for entrepreneurial success: key ingredients for growth',
+        //     'img' => 'https://radapps.co.za/digiinc/images/Article%20Images/12th%20art.jpg',
+        //     'date' => '13 August 2023',
+        //     'category' => 'Entrepreneurship',
+        // ],
+    ];
 
     // Blog Categories
     $categories = [
@@ -146,6 +147,42 @@ $posts = [
         </div>
     </div>
 
+    {{-- //TODO: Implement filter by cateogory and search bar to search for specific article. 
+    See filter template here:  https://dreamgigs.dreamstechnologies.com/html/template/user-purchase.html--}}
+    <div class="table-filter" data-select2-id="14">
+        <ul class="filter-item" data-select2-id="13">
+            <li>
+                <p>Filter</p>
+            </li>
+            <li data-select2-id="27">
+                <div class="form-sort form-wrap" data-select2-id="26">
+                    <span class="form-icon">
+                        <img src="assets/img/icons/status-icon.svg" alt="icon">
+                    </span>
+                    <select class="select select2-hidden-accessible" data-select2-id="4" tabindex="-1" aria-hidden="true">
+                        <option data-select2-id="6">By Category</option>
+                        <option data-select2-id="28">New</option>
+                        <option data-select2-id="29">Pending</option>
+                        <option data-select2-id="30">Processing</option>
+                    </select><span class="select2 select2-container select2-container--default select2-container--below"
+                        dir="ltr" data-select2-id="5" style="width: 100%;"><span class="selection"><span
+                                class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true"
+                                aria-expanded="false" tabindex="0" aria-disabled="false"
+                                aria-labelledby="select2-87ow-container"><span class="select2-selection__rendered"
+                                    id="select2-87ow-container" role="textbox" aria-readonly="true" title="By Status">By
+                                    Status</span><span class="select2-selection__arrow" role="presentation"><b
+                                        role="presentation"></b></span></span></span><span class="dropdown-wrapper"
+                            aria-hidden="true"></span></span>
+                </div>
+            </li>
+        </ul>
+        <div id="tablefilter">
+            <div id="DataTables_Table_0_filter" class="dataTables_filter"><label> <input type="search"
+                        class="form-control form-control-sm" placeholder="Search"
+                        aria-controls="DataTables_Table_0"></label></div>
+        </div>
+    </div>
+
     {{-- Main Content --}}
     <div class="page-content">
         <div class="container">
@@ -196,8 +233,8 @@ $posts = [
                         <li>
                             <a href="javascript:void(0);" class="previous"> <svg width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" />
+                                    <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
                                 </svg></a>
                         </li>
                         <li>
@@ -218,8 +255,8 @@ $posts = [
                         <li>
                             <a href="javascript:void(0);" class="next"><svg width="24" height="24"
                                     viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" />
+                                    <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
                                 </svg></a>
                         </li>
                     </ul>
