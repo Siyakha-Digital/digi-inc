@@ -47,3 +47,11 @@ Route::get('/codesk', function () {
 Route::get('/tools', function () {
     return view('tools.index');
 })->name('tools');
+
+Route::get('/register', function () {
+    return view('register.index');
+})->name('register');
+
+Route::get('/login', function () {
+    return view('login.index');
+})->name('login');
