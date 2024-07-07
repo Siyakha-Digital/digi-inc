@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-@endsection
+
 <div class="container">
 					<div class="container-inner">
 						
