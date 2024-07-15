@@ -149,7 +149,7 @@
 
     {{-- //TODO: Implement filter by cateogory and search bar to search for specific article. 
     See filter template here:  https://dreamgigs.dreamstechnologies.com/html/template/user-purchase.html--}}
-    <div class="table-filter" data-select2-id="14">
+    {{-- <div class="table-filter" data-select2-id="14">
         <ul class="filter-item" data-select2-id="13">
             <li>
                 <p>Filter</p>
@@ -181,7 +181,7 @@
                         class="form-control form-control-sm" placeholder="Search"
                         aria-controls="DataTables_Table_0"></label></div>
         </div>
-    </div>
+    </div> --}}
 
     {{-- Main Content --}}
     <div class="page-content">

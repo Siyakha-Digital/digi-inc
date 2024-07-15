@@ -12,15 +12,17 @@
     <link rel="stylesheet" href="{{ asset('assets/css/aos.css')}}">
     <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.min.css')}}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css')}}">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 
-   <link rel="stylesheet" href="{{ asset('assets/css/styles.css')}}">
+
+    <link rel="stylesheet" href="{{ asset('assets/css/styles.css')}}">
 </head>
 <body>
     <div class="main-wrapper">
 
         {{-- Application Header --}}
         @include('components.nav-bar')
-        
+
 
         <main>
             @yield('content')
