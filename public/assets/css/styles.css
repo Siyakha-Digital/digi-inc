@@ -297,8 +297,8 @@ ul {
 .btn-secondary.active:not(:disabled):not(.disabled),
 .btn-secondary:active:not(:disabled):not(.disabled),
 .show > .btn-secondary.dropdown-toggle {
-	background-color: #FFF1E7;
-	border-color: #FFF1E7;
+	background-color: #000000;
+	border-color: #000000;
 	color: #000000;
 }
 .btn-secondary.active:focus:not(:disabled):not(.disabled), 
@@ -307,8 +307,8 @@ ul {
 	box-shadow: unset;
 }
 .btn-secondary.disabled, .btn-secondary:disabled {
-    background-color: #FFF1E7;
-    border-color: #FFF1E7;
+    background-color: #000000;
+    border-color: #000000;
     color: #000000;
 }
 .btn-secondary-outline {
@@ -1332,7 +1332,7 @@ a.disable {
 }
 .menu-heading span {
 	border-radius: 10px;
-	background: #FFF1E7;
+	background: #000000;
 	width: 40px;
 	height: 40px;
 	-webkit-box-align: center;
@@ -1564,7 +1564,7 @@ html.menu-opened body {
 -----------------------*/
 
 .hero-section {
-	background: #FFF1E7;
+	background: #000000;
 	border-bottom-right-radius: 150px;
 	padding: 120px 0 108px;
 	position: relative;
@@ -1905,7 +1905,7 @@ html.menu-opened body {
 	padding: 24px;
 }
 .gigs-content .gigs-info .badge {
-	background: #FFF1E7;
+	background: #000000;
 	color: #000000;
 	padding: 5px 8px 5px 20px;
 	border-radius: 10px;
@@ -2338,7 +2338,7 @@ html.menu-opened body {
 }
 .provide-section {
 	position: relative;
-	background: #FDF6F1;
+	background: #bbbbbb;
     padding: 80px 0 56px;
     z-index: 1;
 }
@@ -2430,7 +2430,7 @@ html.menu-opened body {
 	margin: 80px 0;
 }
 .cta-wrap {
-	background: #FDF6F1;
+	background: #bbbbbb;
 	padding: 60px;
 	border-radius: 10px;
 	position: relative;
@@ -2727,7 +2727,7 @@ html.menu-opened body {
 }
 .testimonial-section {
 	position: relative;
-	background: #FDF6F1;
+	background: #bbbbbb;
 	padding: 80px 0;
 }
 .testimonial-item {
@@ -2847,7 +2847,7 @@ html.menu-opened body {
 -----------------------*/
 
 .breadcrumb-bar {
-	background: #FDF6F1;
+	background: #bbbbbb;
     position: relative;
     overflow: hidden;
     padding: 40px 0;
@@ -3466,8 +3466,8 @@ html.menu-opened body {
 	text-align: right;
 }
 .btn-light-primary {
-	background-color: #FFF1E7;
-	border: 1px solid #FFF1E7;
+	background-color: #000000;
+	border: 1px solid #000000;
 	color: #000000;
 	display: -webkit-inline-box;
 	display: -ms-inline-flexbox;
@@ -4239,8 +4239,8 @@ html.menu-opened body {
 	align-items: center;
 	justify-content: center;
 	padding: 5px 10px;
-	color: rgba(255, 105, 0, 1);
-	background: #FFF1E7;
+	color: #ffffff;
+	background: #000000;
 	font-size: 14px;
 }
 .blog-content .user-info {
@@ -4298,7 +4298,7 @@ html.menu-opened body {
 .read-more{
 
 	font-weight: 600;
-	color: #ff6900;
+	color: #000000;
 	display: inline-flex;
 	align-items: center;
 
@@ -4362,7 +4362,7 @@ html.menu-opened body {
 	font-size: 14px;
 	font-weight: 500;
 	border-radius: 10px;
-	background: #FFF1E7;
+	background: #000000;
 	color: #000000;
 	display: inline-block;
 }
@@ -4492,7 +4492,7 @@ html.menu-opened body {
 	margin-bottom: 40px;
 }
 .why-choose-sec {
-	background: #FDF6F1;
+	background: #bbbbbb;
 	padding: 80px 0 56px;
 }
 .about-us-header h2 {
@@ -4526,7 +4526,7 @@ html.menu-opened body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: #FFF1E7;
+	background: #000000;
 	margin: 0 auto 15px;
 }
 .why-choose-card h4 {
@@ -4609,7 +4609,7 @@ html.menu-opened body {
 	background: #000000;
 }
 .client-review-sec {
-	background: #FDF6F1;
+	background: #bbbbbb;
 	padding: 80px 0;
 }
 .review-card {
@@ -5170,7 +5170,7 @@ html.menu-opened body {
 }
 .contact-bottom {
     padding: 80px 0 56px;
-    background: #FDF6F1;
+    background: #bbbbbb;
 }
 .contact-grid {
     background: #FFF;
@@ -5598,7 +5598,7 @@ html.menu-opened body {
 }
 .service-box .service-icon {
 	border-radius: 10px;
-	background: #FDF6F1;
+	background: #bbbbbb;
 	width:  62px;
 	height: 62px;
 	-webkit-box-align: center;
@@ -6458,7 +6458,7 @@ html.menu-opened body {
 	margin-bottom: 20px;
 }
 .blog-wrap {
-	background: #FDF6F1;
+	background: #bbbbbb;
 	border-left: 2px solid #000000;
 	padding: 24px;
 	margin-bottom: 20px;
@@ -6475,7 +6475,7 @@ html.menu-opened body {
 	-ms-flex-align: center;
 	align-items: center;
 	padding: 24px;
-	background: #FFF1E7;
+	background: #000000;
 	margin-bottom: 20px;
 	border-radius: 10px;
 }
@@ -6544,7 +6544,7 @@ html.menu-opened body {
 	font-weight: 600;
 }
 .relate-post-section {
-	background: #FDF6F1;
+	background: #bbbbbb;
 	padding: 80px 0 56px;
 }
 .relate-post-section h3 {
@@ -6552,7 +6552,7 @@ html.menu-opened body {
 }
 .badge.bg-primary-light {
 	color: rgba(255, 105, 0, 1);
-    background: #FFF1E7;
+    background: #000000;
 }
 
 /*-----------------
@@ -7830,7 +7830,7 @@ html.menu-opened body {
 	font-weight: 700;
 }
 .review-item.reply-box {
-	background: #FDF6F1;
+	background: #bbbbbb;
 }
 .file-view {
 	background: #F2F2F2;
@@ -8140,7 +8140,7 @@ html.menu-opened body {
 	justify-content: center;
 	-webkit-justify-content: center;
 	-ms-flex-pack: center;
-	background: #FDF6F1;
+	background: #bbbbbb;
 	box-shadow: 0px 4px 9px -1px #13102208, 0px 4.4px 20px -1px #1310220D;
 	border-radius: 10px;
 	margin-bottom: 24px;
@@ -8151,7 +8151,7 @@ html.menu-opened body {
 }
 .pricing-tab ul li a {
 	font-weight: 600;
-	background: #FDF6F1;
+	background: #bbbbbb;
 	border-radius: 10px;
 	padding: 8px 0;
 	display: inline-block;
@@ -8193,7 +8193,7 @@ html.menu-opened body {
 }
 .price-card:hover .price-btn a,
 .price-card.active .price-btn a {
-	background: #FFF1E7;
+	background: #000000;
 	color: #000000;
 }
 .price-card .price-title {
@@ -8218,7 +8218,7 @@ html.menu-opened body {
 	flex-wrap: wrap;
 }
 .price-card .plan-type .badge {
-	background: #FFF1E7;
+	background: #000000;
 	color: #000000;
 	display: inline-block;
 	padding:  7px 10px;
@@ -8381,7 +8381,7 @@ html.menu-opened body {
 .img-remove-btn a {
 	padding: 11px 15px;
 	color: #000000;
-	background: #FFF1E7;
+	background: #000000;
 	border-radius: 10px;
 	margin-left: 15px;
 	display: inline-block;
@@ -13886,7 +13886,7 @@ html.menu-opened body {
 		padding-left: 0;
 		margin-bottom: 0;
 		list-style: none;
-		background: #FFF1E7;
+		background: #000000;
 	}
 	.main-nav ul {
 		display: none;
@@ -13956,14 +13956,14 @@ html.menu-opened body {
 		z-index: 11111;
 		transform: translateX(-260px);
 		transition: all 0.4s;
-		background-color: #FFF1E7;
+		background-color: #000000;
 		margin: 0;
 	}
 	.menu-header {
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
-		background: #FFF1E7;
+		background: #000000;
 	}
 	.navbar-header {
 		-webkit-box-align: center;
