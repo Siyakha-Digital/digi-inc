@@ -12,25 +12,7 @@
                         </h1>
                         <p>Whether you are aiming to launch a full-scale freelance platform or a niche job-posting site, DreamGigs is your go-to choice.</p>
                     </div>
-                    <!-- <div class="template-technologies">
-                        <ul>
-                            <li>
-                                <a href="https://dreamgigs.dreamstechnologies.com/html/template/index.html" target="_blank">
-                                    <img src="assets/img/icons/tech-icon-01.svg" alt>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://dreamgigs.dreamstechnologies.com/laravel/template/public/" target="_blank">
-                                    <img src="assets/img/icons/laravel-icon.svg" alt>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://dreamgigs.dreamstechnologies.com/vue/template/" target="_blank">
-                                    <img src="assets/img/icons/vue-icon.svg" alt>
-                                </a>
-                            </li>
-                        </ul>
-                    </div> -->
+                   
                     <div class="banner-btns d-inline-flex">
                         <a href="" target="_blank" class="btn btn-secondary">
                             Read more  <i class="feather-play ms-2 me-0"></i>
@@ -174,87 +156,24 @@
                     </div>
                     <div class="faq-card aos" data-aos="fade-down">
                         <h4 class="faq-title">
-                            <a class="collapsed" data-bs-toggle="collapse" href="#faqthree" aria-expanded="false">Learning</a>
+                            <a class="collapsed" data-bs-toggle="collapse" href="#faqtwo" aria-expanded="false">Learning</a>
                         </h4>
-                        <div id="faqthree" class="card-collapse collapse" data-bs-parent="#accordionExample">
-                            <p>Tap into our expert blogs and opinion pieces, link into training courses at reduced prices
+                        <div id="faqtwo" class="card-collapse collapse" data-bs-parent="#accordionExample">
+                        <p>Tap into our expert blogs and opinion pieces, link into training courses at reduced prices
 
-                                Blogs and articles from subject matter experts, technical training at reduced prices for Digi Inc members</p>
+Blogs and articles from subject matter experts, technical training at reduced prices for Digi Inc members</p>
                         </div>
                     </div>
-                    {{-- <div class="faq-card aos" data-aos="fade-down">
-                        <h4 class="faq-title">
-                            <a class="collapsed" data-bs-toggle="collapse" href="#faqfour" aria-expanded="false">What are the other Platforms customize can be done?</a>
-                        </h4>
-                        <div id="faqfour" class="card-collapse collapse" data-bs-parent="#accordionExample">
-                            <p>You can sell and accept payments in many currencies, depending on what payment providers (also known as third party payment processors or payment gateways) you use.</p>
-                        </div>
-                    </div> --}}
+                   
+                   
+                 
                 </div>
             </div>
         </div>
     </section>
     <section class="contact-section">
 
-        <div class="contact-bottom bg-white">
-            <div class="container">
-                <div class="row justify-content-center">
-
-                    <div class="col-lg-4 col-md-6 d-flex">
-                        <div class="contact-grid w-100">
-                            <div class="contact-content">
-                                <div class="contact-icon">
-                                    <span>
-                                        <img src="https://dreamgigs.dreamstechnologies.com/html/template/assets/img/icons/contact-mail.svg" alt="Icon">
-                                    </span>
-                                </div>
-                                <div class="contact-details">
-                                    <h6>Email Address</h6>
-                                    <p><a href="javascript:void(0);">info@digiinc.co.za</a></p>
-                                    <p><a href="javascript:void(0);">support@digiinc.co.za</a></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-lg-4 col-md-6 d-flex">
-                        <div class="contact-grid w-100">
-                            <div class="contact-content">
-                                <div class="contact-icon">
-                                    <span>
-                                        <img src="https://dreamgigs.dreamstechnologies.com/html/template/assets/img/icons/contact-phone.svg" alt="Icon">
-                                    </span>
-                                </div>
-                                <div class="contact-details">
-                                    <h6>Phone Number</h6>
-                                    <p>+1 81649 48103</p>
-                                    <p>+1 78301 71940</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-lg-4 col-md-6 d-flex">
-                        <div class="contact-grid w-100">
-                            <div class="contact-content">
-                                <div class="contact-icon">
-                                    <span>
-                                        <img src="https://dreamgigs.dreamstechnologies.com/html/template/assets/img/icons/contact-map.svg" alt="Icon">
-                                    </span>
-                                </div>
-                                <div class="contact-details contact-details-address">
-                                    <h6>Address</h6>
-                                    <p>367 Hillcrest Lane, Irvine, California, United Sates</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
+       
 
 
         <div class="contact-top pt-0">
@@ -269,30 +188,39 @@
 
 
                     <div class="col-lg-6 col-md-12 d-flex">
-                        <div class="team-form w-100">
-                            <div class="team-form-heading">
-                                <h3>Get in Touch</h3>
-                                <p>Ready to dive into the digital realm? Don’t miss out – join Digi.Inc now!</p>
-                            </div>
-                            <form action="#">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Name">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Email">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Subject">
-                                </div>
-                                <div class="form-group">
-                                    <textarea class="form-control" placeholder="Your Message"></textarea>
-                                </div>
-                                <div class="form-group mb-0">
-                                    <button type="submit" class="btn btn-primary">Send Message</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
+    <div class="team-form w-100">
+        <div class="team-form-heading">
+            <h3>Get in Touch</h3>
+            <p>Ready to dive into the digital realm? Don’t miss out – join Digi.Inc now!</p>
+        </div>
+        <form action="#">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Name">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Subject">
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" placeholder="Your Message"></textarea>
+            </div>
+            <div class="form-group">
+               
+                <input type="text" class="form-control" id="mathQuestion" placeholder="2+5=?" onfocus="this.placeholder=''" onblur="if (this.value == '') { this.placeholder='2+5=?'; }">
+            </div>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="termsCheck">
+                <label class="form-check-label" for="termsCheck">I Agree with the Terms of Use and Privacy Policy</label>
+            </div>
+            <div class="form-group mb-0">
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </div>
+        </form>
+    </div>
+</div>
+
 
                 </div>
             </div>
