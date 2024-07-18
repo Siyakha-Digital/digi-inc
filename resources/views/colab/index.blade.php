@@ -305,7 +305,7 @@
                                 <input type="hidden" name="option" value="com_users">
                 <input type="hidden" name="task" value="user.login">
                 <input type="hidden" name="return" value="aW5kZXgucGhwP29wdGlvbj1jb21fY29tbXVuaXR5JnZpZXc9cHJvZmlsZQ==">
-                <div class="joms-js--token"><input type="hidden" name="6c6aad5711d33bd665f62ce13235a62b" value="1"></div>
+                <div class="joms-js--token"><input type="hidden" name="458bd002480969099eb196e8d060d655" value="1"></div>
             </form>
 
             <script>

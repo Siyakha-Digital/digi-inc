@@ -170,4 +170,5 @@ Note: If the profile type chosen requires approval from site administrators, you
 </div>
 											</div>
 				</div>
+				@include('components.footer')
 @endsection

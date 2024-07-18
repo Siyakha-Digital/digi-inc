@@ -12,7 +12,7 @@
                         </h1>
                         <p>Whether you are aiming to launch a full-scale freelance platform or a niche job-posting site, DreamGigs is your go-to choice.</p>
                     </div>
-                    <div class="template-technologies">
+                    <!-- <div class="template-technologies">
                         <ul>
                             <li>
                                 <a href="https://dreamgigs.dreamstechnologies.com/html/template/index.html" target="_blank">
@@ -30,19 +30,26 @@
                                 </a>
                             </li>
                         </ul>
-                    </div>
+                    </div> -->
                     <div class="banner-btns d-inline-flex">
                         <a href="" target="_blank" class="btn btn-secondary">
-                            Get Started <i class="feather-play ms-2 me-0"></i>
+                            Read more  <i class="feather-play ms-2 me-0"></i>
                         </a>
                     </div>
+                    <div class="banner-btns d-inline-flex">
+                        <a href="{{ route('register') }}" target="_blank" class="btn btn-secondary">
+                            Sign Up <i class="feather-play ms-2 me-0"></i>
+                        </a>
+                    </div>
+                    
                 </div>
             </div>
+            
             <div class="col-lg-7">
                 <div class="banner-img">
                     <div class="banner-img-right">
                         <a href="#">
-                            <img style="max-width: 500px !important;" src="https://sppagebuilder.com/images/2022/startup-company/hero-img1.png" class="img-fluid" alt="Img">
+                            <img style="max-width: 350px !important;" src="https://sppagebuilder.com/images/2022/startup-company/hero-img1.png" class="img-fluid" alt="Img">
                         </a>
                     </div>
                 </div>

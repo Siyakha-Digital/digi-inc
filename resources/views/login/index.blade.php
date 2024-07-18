@@ -5,7 +5,7 @@
 <form action="index.html">
 <div class="login-userset">
 <div class="login-logo">
-<img src="assets/img/logo.svg" alt="img">
+<img src="https://radapps.co.za/digiinc/images/digi-inc-logo-01.png" class="img-fluid" alt="img">
 </div>
 <div class="login-card">
 <div class="login-heading">
@@ -68,4 +68,5 @@
 </form>
 </div>
 </div>
+@include('components.footer')
 @endsection
