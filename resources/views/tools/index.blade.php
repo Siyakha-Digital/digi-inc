@@ -7,7 +7,7 @@
 <div class="col-md-12">
 <div class="marketing-section">
 <div class="marketing-content">
-<h2>All Categories</h2>
+<h2>Tools</h2>
 <p>Digital marketing is an essential component of modern business, given the widespread use of the internet and digital devices.</p>
 <div class="marketing-bg">
 <img src="assets/img/bg/market-bg.png" alt="img" class="market-bg">
@@ -18,12 +18,12 @@
 </div>
 
 
-<div class="sortby-title">
+<!-- <div class="sortby-title">
 <div class="row align-items-center">
 <div class="col-md-6">
 <h4>10 Categories found with <span>14,787</span> Services</h4>
-</div>
-<div class="col-md-6">
+</div> -->
+<!-- <div class="col-md-6">
 <div class="search-filter-selected float-md-end" data-select2-id="6">
 <div class="form-group" data-select2-id="5">
 <span class="sort-text">Sort By</span>
@@ -35,24 +35,24 @@
 </div>
 </div>
 </div>
-</div>
+</div> -->
 
 
 <div class="col-xl-3 col-lg-4 col-sm-6">
 <div class="service-grid">
 <div class="service-img">
 <a href="service.html">
-<img src="assets/img/service/service-01.jpg" class="img-fluid" alt="img">
+<img src="https://radapps.co.za/digiinc/images/2024/02/09/close-up-colleague-work_23-2148894048.jpg" class="img-fluid" alt="img">
 </a>
 <div class="avg-price">
-<h6>Average Price</h6>
-<span>$4,580</span>
+<!-- <h6>Average Price</h6>
+<span>$4,580</span> -->
 </div>
 </div>
 <div class="service-type d-flex justify-content-between align-items-center">
 <div class="servive-name">
-<h4><a href="service.html">Social Media</a></h4>
-<span>7860 Sevices</span>
+<h4><a href="service.html">Agricultural Tech</a></h4>
+<!-- <span>7860 Sevices</span> -->
 </div>
 <div class="next-arrow">
 <a href="service.html"><i class="feather-arrow-up-right"></i></a>
@@ -66,17 +66,17 @@
 <div class="service-grid">
 <div class="service-img">
 <a href="service.html">
-<img src="assets/img/service/service-02.jpg" class="img-fluid" alt="img">
+<img src="https://radapps.co.za/digiinc/images/2024/02/09/engineer-data-center-using-tablet-prevent-system-overload-close-up-employee-server-room-ensuring-there-is-enough-network-connectivity-smooth-opera.jpg" class="img-fluid" alt="img">
 </a>
 <div class="avg-price">
-<h6>Average Price</h6>
-<span>$5,620</span>
+<!-- <h6>Average Price</h6>
+<span>$5,620</span> -->
 </div>
 </div>
 <div class="service-type d-flex justify-content-between align-items-center">
 <div class="servive-name">
-<h4><a href="service.html">Artificial Intelligence</a></h4>
-<span>4709 Sevices</span>
+<h4><a href="service.html">Financial Tech</a></h4>
+<!--  -->
 </div>
 <div class="next-arrow">
 <a href="service.html"><i class="feather-arrow-up-right"></i></a>
@@ -90,17 +90,17 @@
 <div class="service-grid">
 <div class="service-img">
 <a href="service.html">
-<img src="assets/img/service/service-03.jpg" class="img-fluid" alt="img">
+<img src="https://radapps.co.za/digiinc/images/2024/02/09/focused-black-female-student-describing-vr-experience_74855-1880.jpg" class="img-fluid" alt="img">
 </a>
 <div class="avg-price">
-<h6>Average Price</h6>
-<span>$4,310</span>
+<!-- <h6>Average Price</h6>
+<span>$4,310</span> -->
 </div>
 </div>
 <div class="service-type d-flex justify-content-between align-items-center">
 <div class="servive-name">
-<h4><a href="service.html">Business</a></h4>
-<span>1590 Sevices</span>
+<h4><a href="service.html">Educational Tech</a></h4>
+<!-- <span>1590 Sevices</span> -->
 </div>
 <div class="next-arrow">
 <a href="service.html"><i class="feather-arrow-up-right"></i></a>
@@ -114,17 +114,17 @@
 <div class="service-grid">
 <div class="service-img">
 <a href="service.html">
-<img src="assets/img/service/service-04.jpg" class="img-fluid" alt="img">
+<img src="https://radapps.co.za/digiinc/images/2024/02/09/ai-tech.jpg" class="img-fluid" alt="img">
 </a>
 <div class="avg-price">
-<h6>Average Price</h6>
-<span>$2,780</span>
+<!-- <h6>Average Price</h6>
+<span>$2,780</span> -->
 </div>
 </div>
 <div class="service-type d-flex justify-content-between align-items-center">
 <div class="servive-name">
-<h4><a href="service.html">Music &amp; Audio</a></h4>
-<span>1458 Sevices</span>
+<h4><a href="service.html">AI Tech</a></h4>
+<!-- <span>1458 Sevices</span> -->
 </div>
 <div class="next-arrow">
 <a href="service.html"><i class="feather-arrow-up-right"></i></a>
@@ -138,17 +138,17 @@
 <div class="service-grid">
 <div class="service-img">
 <a href="service.html">
-<img src="assets/img/service/service-05.jpg" class="img-fluid" alt="img">
+<img src="	https://radapps.co.za/digiinc/images/2024/02/09/coding-and-app-development-tech.jpg" class="img-fluid" alt="img">
 </a>
 <div class="avg-price">
-<h6>Average Price</h6>
-<span>$8,060</span>
+<!-- <h6>Average Price</h6>
+<span>$8,060</span> -->
 </div>
 </div>
 <div class="service-type d-flex justify-content-between align-items-center">
 <div class="servive-name">
-<h4><a href="service.html">Programming &amp; Tech</a></h4>
-<span>5678 Sevices</span>
+<h4><a href="service.html">Coding and App development Tech</a></h4>
+<!-- <span>5678 Sevices</span> -->
 </div>
 <div class="next-arrow">
 <a href="service.html"><i class="feather-arrow-up-right"></i></a>
@@ -162,17 +162,17 @@
 <div class="service-grid">
 <div class="service-img">
 <a href="service.html">
-<img src="assets/img/service/service-06.jpg" class="img-fluid" alt="img">
+<img src="https://radapps.co.za/digiinc/images/2024/02/09/saas-concept-collage_23-2149399281.jpg" class="img-fluid" alt="img">
 </a>
 <div class="avg-price">
-<h6>Average Price</h6>
-<span>$2,130</span>
+<!-- <h6>Average Price</h6>
+<span>$2,130</span> -->
 </div>
 </div>
 <div class="service-type d-flex justify-content-between align-items-center">
 <div class="servive-name">
-<h4><a href="service.html">Digital Marketing</a></h4>
-<span>1874 Sevices</span>
+<h4><a href="service.html">Telecommunication Tech</a></h4>
+<!-- <span>1874 Sevices</span> -->
 </div>
 <div class="next-arrow">
 <a href="service.html"><i class="feather-arrow-up-right"></i></a>
@@ -186,17 +186,17 @@
 <div class="service-grid">
 <div class="service-img">
 <a href="service.html">
-<img src="assets/img/service/service-07.jpg" class="img-fluid" alt="img">
+<img src="https://radapps.co.za/digiinc/images/2024/02/09/businessman-checking-his-phone_53876-93007.jpg" class="img-fluid" alt="img">
 </a>
 <div class="avg-price">
-<h6>Average Price</h6>
-<span>$4,910</span>
+<!-- <h6>Average Price</h6>
+<span>$4,910</span> -->
 </div>
 </div>
 <div class="service-type d-flex justify-content-between align-items-center">
 <div class="servive-name">
-<h4><a href="service.html">Writing &amp; Translation</a></h4>
-<span>2478 Sevices</span>
+<h4><a href="service.html">Cybersecurity Tech</a></h4>
+<!-- <span>2478 Sevices</span> -->
 </div>
 <div class="next-arrow">
 <a href="service.html"><i class="feather-arrow-up-right"></i></a>
@@ -210,17 +210,17 @@
 <div class="service-grid">
 <div class="service-img">
 <a href="service.html">
-<img src="assets/img/service/service-08.jpg" class="img-fluid" alt="img">
+<img src="https://radapps.co.za/digiinc/images/2024/02/09/robotics-tech.jpg" class="img-fluid" alt="img">
 </a>
 <div class="avg-price">
-<h6>Average Price</h6>
-<span>$3,040</span>
+<!-- <h6>Average Price</h6>
+<span>$3,040</span> -->
 </div>
 </div>
 <div class="service-type d-flex justify-content-between align-items-center">
 <div class="servive-name">
-<h4><a href="service.html">Photography</a></h4>
-<span>1454 Sevices</span>
+<h4><a href="service.html">Robotics</a></h4>
+<!-- <span>1454 Sevices</span> -->
 </div>
 <div class="next-arrow">
 <a href="service.html"><i class="feather-arrow-up-right"></i></a>
@@ -234,17 +234,17 @@
 <div class="service-grid">
 <div class="service-img">
 <a href="service.html">
-<img src="assets/img/service/service-09.jpg" class="img-fluid" alt="img">
+<img src="https://radapps.co.za/digiinc/images/2024/02/09/engineer-data-center-using-tablet-prevent-system-overload-close-up-employee-server-room-ensuring-there-is-enough-network-connectivity-smooth-opera.jpg" class="img-fluid" alt="img">
 </a>
 <div class="avg-price">
-<h6>Average Price</h6>
-<span>$2,850</span>
+<!-- <h6>Average Price</h6>
+<span>$2,850</span> -->
 </div>
 </div>
 <div class="service-type d-flex justify-content-between align-items-center">
 <div class="servive-name">
-<h4><a href="service.html">Consulting</a></h4>
-<span>1274 Sevices</span>
+<h4><a href="service.html">E-Health Tech</a></h4>
+<!-- <span>1274 Sevices</span> -->
 </div>
 <div class="next-arrow">
 <a href="service.html"><i class="feather-arrow-up-right"></i></a>
@@ -258,17 +258,17 @@
 <div class="service-grid">
 <div class="service-img">
 <a href="service.html">
-<img src="assets/img/service/service-10.jpg" class="img-fluid" alt="img">
+<img src="https://radapps.co.za/digiinc/images/2024/02/09/black-woman-mechanical-industry-working-late-night-doing-overtime-start-up-office_482257-5385.jpg" class="img-fluid" alt="img">
 </a>
 <div class="avg-price">
-<h6>Average Price</h6>
-<span>$2,850</span>
+<!-- <h6>Average Price</h6>
+<span>$2,850</span> -->
 </div>
 </div>
 <div class="service-type d-flex justify-content-between align-items-center">
 <div class="servive-name">
-<h4><a href="service.html">Events</a></h4>
-<span>1874 Sevices</span>
+<h4><a href="service.html">Design Tech</a></h4>
+<!-- <span>1874 Sevices</span> -->
 </div>
 <div class="next-arrow">
 <a href="service.html"><i class="feather-arrow-up-right"></i></a>
@@ -282,17 +282,17 @@
 <div class="service-grid">
 <div class="service-img">
 <a href="service.html">
-<img src="assets/img/service/service-11.jpg" class="img-fluid" alt="img">
+<img src="https://radapps.co.za/digiinc/images/2024/02/09/digital-wardrobe-transparent-screen_53876-105380.jpg" class="img-fluid" alt="img">
 </a>
 <div class="avg-price">
-<h6>Average Price</h6>
-<span>$4,950</span>
+<!-- <h6>Average Price</h6>
+<span>$4,950</span> -->
 </div>
 </div>
 <div class="service-type d-flex justify-content-between align-items-center">
 <div class="servive-name">
-<h4><a href="service.html">Copywriting</a></h4>
-<span>2478 Sevices</span>
+<h4><a href="service.html">Ecommerce Tech</a></h4>
+<!-- <span>2478 Sevices</span> -->
 </div>
 <div class="next-arrow">
 <a href="service.html"><i class="feather-arrow-up-right"></i></a>
@@ -306,17 +306,17 @@
 <div class="service-grid">
 <div class="service-img">
 <a href="service.html">
-<img src="assets/img/service/service-12.jpg" class="img-fluid" alt="img">
+<img src="https://radapps.co.za/digiinc/images/2024/02/09/young-man-recording-woman-singing-radio-station_23-2148815383.jpg" class="img-fluid" alt="img">
 </a>
 <div class="avg-price">
-<h6>Average Price</h6>
-<span>$6,580</span>
+<!-- <h6>Average Price</h6>
+<span>$6,580</span> -->
 </div>
 </div>
 <div class="service-type d-flex justify-content-between align-items-center">
 <div class="servive-name">
-<h4><a href="service.html">CMS Development</a></h4>
-<span>1454 Sevices</span>
+<h4><a href="service.html">Video and Sound Tech</a></h4>
+<!-- <span>1454 Sevices</span> -->
 </div>
 <div class="next-arrow">
 <a href="service.html"><i class="feather-arrow-up-right"></i></a>
