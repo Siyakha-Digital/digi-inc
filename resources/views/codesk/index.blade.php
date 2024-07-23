@@ -143,22 +143,19 @@
 		</div>
 	</div>
 </div>
-<div id="solidres" class="bs5 reservation_asset_default ">
-        <div class="reservation_asset_item clearfix">
-		            <div class="row">
-                <div class="col-md-9">
-                    <h1>
-						Cape Town Shared Space 						<span class="rating-wrapper"><i class="rating fa fa-star"></i> <i class="rating fa fa-star"></i> <i class="rating fa fa-star"></i> <i class="rating fa fa-star"></i> <i class="rating fa fa-star"></i> </span>                    </h1>
-                </div>
-                <div class="col-md-3">
-					                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-					<span class="address_1 reservation_asset_subinfo">
-					1 long street, Cape Town, South Africa                        <a class="show_map cboxElement" href="/digiinc/index.php/codesk/cape-town?task=map.show">
-							Show map						</a>
-					</span>
+<div id="solidres" class="bs5 reservation_asset_default">
+    <div class="reservation_asset_item clearfix">
+        <div class="row">
+            <div class="col-md-9">
+                <h1>
+                    Cape Town Shared Space
+                    <span class="rating-wrapper">
+                        <i class="rating fa fa-star"></i>
+                        <i class="rating fa fa-star"></i>
+                        <i class="rating fa fa-star"></i>
+                        <i class="rating fa fa-star"></i>
+                        <i class="rating fa fa-star"></i>
+                    </span>
 
 					
 					
@@ -194,15 +191,19 @@
 
 
 
-    <div class="wizard wizard-default">
-        <ul class="row steps list-inline">
-            <li data-target="#step1" class="list-inline-item active reservation-tab reservation-tab-room col-md-4">
-                <span class="badge badge-info">1</span>Room &amp; Rates<span class="chevron"></span></li>
-            <li data-target="#step2" class="list-inline-item reservation-tab reservation-tab-guestinfo col-md-4"><span class="badge bg-secondary">2</span>Guest info &amp; Payment<span class="chevron"></span></li>
-            <li data-target="#step3" class="list-inline-item reservation-tab reservation-tab-confirmation col-md-4">
-                <span class="badge bg-secondary">3</span>Confirmation</li>
-        </ul>
-    </div>
+<div class="wizard wizard-default">
+    <ul class="steps">
+        <li data-target="#step1" class="list-inline-item active reservation-tab reservation-tab-room">
+            <span class="badge badge-info">1</span> Room &amp; Rates <span class="chevron">›</span>
+        </li>
+        <li data-target="#step2" class="list-inline-item reservation-tab reservation-tab-guestinfo">
+            <span class="badge bg-secondary">2</span> Guest info &amp; Payment <span class="chevron">›</span>
+        </li>
+        <li data-target="#step3" class="list-inline-item reservation-tab reservation-tab-confirmation">
+            <span class="badge bg-secondary">3</span> Confirmation
+        </li>
+    </ul>
+</div>
 
 <div class="step-content">
     <div class="step-pane active" id="step1">
