@@ -1,10 +1,8 @@
 @extends('layouts.app')
 @section('content')
 @endsection
-<body class="site helix-ultimate hu com_solidres com-solidres view-reservationasset layout-default task-none itemid-228 en-gb ltr sticky-header layout-fluid offcanvas-init offcanvs-position-right" data-new-gr-c-s-check-loaded="14.1188.0" data-gr-ext-installed="" style="">
+		
 
-		
-		
 		<div class="body-wrapper">
 			<div class="body-innerwrapper">
 				
