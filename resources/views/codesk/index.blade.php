@@ -1,12 +1,14 @@
 @extends('layouts.app')
 @section('content')
 @endsection
+<body class="site helix-ultimate hu com_solidres com-solidres view-reservationasset layout-default task-none itemid-228 en-gb ltr sticky-header layout-fluid offcanvas-init offcanvs-position-right" data-new-gr-c-s-check-loaded="14.1188.0" data-gr-ext-installed="" style="">
 
+		
     <div class="body-wrapper">
         <div class="body-innerwrapper">
             
-<div class="sticky-header-placeholder" style="height: inherit;"></div>
-<header id="sp-header" class="">
+<div class="sticky-header-placeholder" style="height: 80px;"></div>
+<header id="sp-header" class="header-sticky">
 <div class="container">
     <div class="container-inner">
         <div class="row" style="position: relative;">
@@ -73,13 +75,13 @@
     </button>
 </div>
 <div class="modal-body">
-<div class="countdown"><span class="h">01</span> <span class="m">48</span> <span class="s">08</span></div><button type="button" class="btn btn-default"><i class="fa fa-sync"></i> Renew</button></div>
+<div class="countdown"><span class="h">01</span> <span class="m">37</span> <span class="s">34</span></div><button type="button" class="btn btn-default"><i class="fa fa-sync"></i> Renew</button></div>
 <div class="modal-footer">
 <button type="button" class="btn btn-secondary" data-dismiss="modal" data-bs-dismiss="modal" aria-hidden="true">Close</button></div>
     </div>
 </div>
 </div>
-<div id="solidres_user_login_form" role="dialog" tabindex="-1" class="joomla-modal modal fade">
+<div id="solidres_user_login_form" tabindex="-1" class="joomla-modal modal fade" style="display: none;" aria-hidden="true">
 <div class="modal-dialog modal-xl ">
     <div class="modal-content">
         <div class="modal-header">
@@ -87,7 +89,7 @@
             <button type="button" class="btn-close novalidate" data-bs-dismiss="modal" aria-label="Close">
     </button>
 </div>
-<div class="modal-body">
+<div class="modal-body" style="max-height: initial;">
 <form action="/digiinc/index.php/codesk/cape-town" method="post" id="login-form">
 
 <div id="form-login-username" class="mb-3">
@@ -135,115 +137,100 @@
 
 </form>
 </div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-dismiss="modal" data-bs-dismiss="modal" aria-hidden="true">Close</button></div>
+    </div>
+</div>
+</div>
+<div id="solidres" class="bs5 reservation_asset_default ">
+    <div class="reservation_asset_item clearfix">
+                <div class="row">
+            <div class="col-md-9">
+                <h1>
+                    Cape Town Shared Space 						<span class="rating-wrapper"><i class="rating fa fa-star"></i> <i class="rating fa fa-star"></i> <i class="rating fa fa-star"></i> <i class="rating fa fa-star"></i> <i class="rating fa fa-star"></i> </span>                    </h1>
+            </div>
+            <div class="col-md-3">
+                                </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <span class="address_1 reservation_asset_subinfo">
+                1 long street, Cape Town, South Africa                        <a class="show_map cboxElement" href="/digiinc/index.php/codesk/cape-town?task=map.show">
+                        Show map						</a>
+                </span>
 
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="#">The Digi Inc</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">News Feed</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">CoWork</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">CoLab</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">CoDesk</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Tools</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Register</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Sign In</a>
-                    </li>
-                </ul>
+                
+                
+                
+                <span class="social_network reservation_asset_subinfo clearfix">
+                    
+                </span>
             </div>
         </div>
-    </nav>
 
-    <!-- Main Content -->
-    <div class="container mt-4">
-        <div id="solidres" class="bs5 reservation_asset_default">
-            <div class="reservation_asset_item clearfix">
-                <div class="row mb-3">
-                    <div class="col-md-9">
-                        <h1>
-                            Cape Town Shared Space
-                            <span class="rating-wrapper">
-                                <i class="rating fa fa-star"></i>
-                                <i class="rating fa fa-star"></i>
-                                <i class="rating fa fa-star"></i>
-                                <i class="rating fa fa-star"></i>
-                                <i class="rating fa fa-star"></i>
-                            </span>
-                        </h1>
-                    </div>
-                </div>
+        <div class="row">
+            <div class="col-md-12">
+                                </div>
+        </div>
 
-                <div class="row mb-3">
-                    <div class="col-md-12">
-                        <span class="address_1 reservation_asset_subinfo">
-                            1 long street, Cape Town, South Africa
-                            <a class="show_map cboxElement" href="#">
-                                Show map
-                            </a>
-                        </span>
-                    </div>
-                </div>
+        <div class="row">
+            <div class="col-md-12">
+                <joomla-tab id="asset-info" orientation="horizontal" recall="" breakpoint="768" view="tabs"></joomla-tab>                </div>
+        </div>
+
+    
+                        <div class="row">
+            <div class="col-md-12">
+                <div class="alert alert-info sr-login-form">
+                    <i class="fa fa-sign-in"></i> Are you a member? If yes please <a id="toggle_login_form" href="javascript:void(0)">click here to login</a>.                    </div>
+            </div>
+        </div>
     
     <div class="row">
         <div class="col-md-12">
             
 <a id="book-form"></a>
 
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-    <div class="container">
-        <div class="wizard wizard-default">
-            <ul class="row steps list-inline">
-                <li data-target="#step1" class="list-inline-item active reservation-tab reservation-tab-room col-md-4">
-                    <span class="badge badge-info">1</span>Room &amp; Rates<span class="chevron"></span>
-                </li>
-                <li data-target="#step2" class="list-inline-item reservation-tab reservation-tab-guestinfo col-md-4">
-                    <span class="badge bg-secondary">2</span>Guest info &amp; Payment<span class="chevron"></span>
-                </li>
-                <li data-target="#step3" class="list-inline-item reservation-tab reservation-tab-confirmation col-md-4">
-                    <span class="badge bg-secondary">3</span>Confirmation
-                </li>
-            </ul>
-        </div>
 
-        <div class="step-content">
-            <div class="step-pane active" id="step1">
-                <!-- Tab 1 -->
-                <div class="reservation-single-step-holder room room-default">
-                    <form id="sr-checkavailability-form-component" action="/digiinc/index.php/codesk/cape-town" method="GET">
-                        <input type="hidden" name="checkin" value="22-07-2024">
-                        <input type="hidden" name="checkout" value="23-07-2024">
-                        <input type="hidden" name="Itemid" value="228">
-                        <input type="hidden" name="id" value="2">
-                        <input type="hidden" name="view" value="reservationasset">
-                        <input type="hidden" name="option" value="com_solidres">
-                        <input type="hidden" name="ts" value="">
-                        <input type="hidden" name="f69c572ce30de069587b7afcdd374a6a" value="1">
-                    </form>
-                    <form enctype="multipart/form-data" id="sr-reservation-form-room" class="sr-reservation-form" action="https://radapps.co.za/digiinc/index.php?option=com_solidres&amp;task=reservation.process&amp;step=room&amp;format=json" method="POST" novalidate="novalidate">
-                        <div class="even room_type_row px-3 py-3" id="room_type_row_2">
-                            <h4 class="roomtype_name" id="srt_2">
-                                <span class="badge bg-secondary">
-                                    1 <i class="fa fa-user"></i>
-                                </span> Cape Town Shared Workspace Desk													                            </h4>
+<div class="wizard wizard-default">
+    <ul class="row steps list-inline">
+        <li data-target="#step1" class="list-inline-item active reservation-tab reservation-tab-room col-md-4">
+            <span class="badge badge-info">1</span>Room &amp; Rates<span class="chevron"></span></li>
+        <li data-target="#step2" class="list-inline-item reservation-tab reservation-tab-guestinfo col-md-4"><span class="badge bg-secondary">2</span>Guest info &amp; Payment<span class="chevron"></span></li>
+        <li data-target="#step3" class="list-inline-item reservation-tab reservation-tab-confirmation col-md-4">
+            <span class="badge bg-secondary">3</span>Confirmation</li>
+    </ul>
+</div>
+
+<div class="step-content">
+<div class="step-pane active" id="step1">
+    <!-- Tab 1 -->
+    <div class="reservation-single-step-holder room room-default">
+        
+
+
+<form id="sr-checkavailability-form-component" action="/digiinc/index.php/codesk/cape-town" method="GET">
+
+<input type="hidden" name="checkin" value="22-07-2024">
+
+<input type="hidden" name="checkout" value="23-07-2024">
+
+<input type="hidden" name="Itemid" value="228">
+<input type="hidden" name="id" value="2">
+<input type="hidden" name="view" value="reservationasset">
+<input type="hidden" name="option" value="com_solidres">
+<input type="hidden" name="ts" value="">
+<input type="hidden" name="f69c572ce30de069587b7afcdd374a6a" value="1"></form>
+        <form enctype="multipart/form-data" id="sr-reservation-form-room" class="sr-reservation-form" action="https://radapps.co.za/digiinc/index.php?option=com_solidres&amp;task=reservation.process&amp;step=room&amp;format=json" method="POST" novalidate="novalidate">
+            
+                    <div class="even  room_type_row px-3 py-3" id="room_type_row_2">
+                        <h4 class="roomtype_name" id="srt_2">
+                        <span class="badge bg-secondary">
+                            1                                <i class="fa fa-user"></i>
+                        </span>
+
+                            Cape Town Shared Workspace Desk																                            </h4>
 
                         <div class="row mb-3">
                             <div class="col-md-4">
@@ -349,8 +336,19 @@
             
         </div>
     </div>
+    
+                        <div class="row">
+            <div class="col-md-12 powered">
+                <p>
+                    Powered by <a target="_blank" title="Solidres - A hotel booking extension for Joomla" href="https://www.solidres.com">Solidres</a>
+                </p>
+            </div>
+        </div>
+        </div>
+</div>
 
 
+        </div>
 </main>
 </div>
                                         </div>
@@ -371,3 +369,49 @@
         </div>
         
 </footer>			</div>
+    </div>
+
+    <!-- Off Canvas Menu -->
+    <div class="offcanvas-overlay"></div>
+    <!-- Rendering the offcanvas style -->
+    <!-- If canvas style selected then render the style -->
+    <!-- otherwise (for old templates) attach the offcanvas module position -->
+                <div class="offcanvas-menu border-menu center-alignment text-center">
+<div class="d-flex align-items-center p-3 pt-4">
+    <div class="logo"><a href="/digiinc/">
+            <img class="logo-image  d-none d-lg-inline-block" srcset="https://radapps.co.za/digiinc/images/digi-inc-logo-01.png 1x, https://radapps.co.za/digiinc/images/digi-inc-logo-01.png 2x" src="https://radapps.co.za/digiinc/images/digi-inc-logo-01.png" height="60px" alt="My Joomla">
+            <img class="logo-image-phone d-inline-block d-lg-none" src="https://radapps.co.za/digiinc/images/digi-inc-logo-01.png" alt="My Joomla"></a></div>		<a href="#" class="close-offcanvas" aria-label="Close Off-canvas">
+        <div class="burger-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </a>
+</div>
+<div class="offcanvas-inner">
+    <div class="d-flex header-modules p-3 mb-3">
+        
+                </div>
+    
+                <div class="menu-wrapper">
+            <div class="sp-module "><div class="sp-module-content"><ul class="menu nav-pills">
+<li class="item-197 menu-deeper menu-parent"><a href="/digiinc/index.php/news-feed">News Feed<span class="menu-toggler"></span></a><ul class="menu-child"><li class="item-245"><a href="/digiinc/index.php/news-feed/inews">News</a></li></ul></li><li class="item-122 menu-deeper"><a href="/digiinc/index.php/cowork">CoWork</a><ul class="menu-child"><li class="item-125"><a href="/digiinc/index.php/cowork/profile/edit-profile">Edit Profile</a></li><li class="item-126"><a href="/digiinc/index.php/cowork/profile/edit-profile-picture/edit">Edit Profile Picture</a></li><li class="item-127"><a href="/digiinc/index.php/cowork/profile/edit-portfolio">Edit Portfolio</a></li><li class="item-128"><a href="/digiinc/index.php/cowork/profile/email-preferences">Email Preferences</a></li><li class="item-129"><a href="/digiinc/index.php/cowork/profile/my-messages">My Messages</a></li><li class="item-130"><a href="/digiinc/index.php/cowork/profile/new-message">New Message</a></li></ul></li><li class="item-132 menu-deeper"><a href="/digiinc/index.php/cowork/latest-projects">Opportunities</a><ul class="menu-child"><li class="item-133"><a href="/digiinc/index.php/cowork/projects/search-projects">Search Projects</a></li><li class="item-134"><a href="/digiinc/index.php/cowork/projects/post-new-project">Post New Project</a></li><li class="item-135"><a href="/digiinc/index.php/cowork/projects/my-projects">My Projects</a></li><li class="item-136"><a href="/digiinc/index.php/cowork/projects/my-bids">My Bids</a></li><li class="item-137"><a href="/digiinc/index.php/cowork/projects/my-services">My Services</a></li><li class="item-138"><a href="/digiinc/index.php/cowork/projects/services-bought">Services Bought</a></li><li class="item-139"><a href="/digiinc/index.php/cowork/projects/services-sold">Services Sold</a></li></ul></li></ul><li class="item-167"><a href="/digiinc/index.php/colab">CoLab</a></li><li class="item-204 active menu-divider menu-deeper menu-parent"><span class="menu-separator ">CoDesk<span class="menu-toggler"></span></span>
+<ul class="menu-child"><li class="item-228 current active"><a href="/digiinc/index.php/codesk/cape-town">Cape Town</a></li><li class="item-229"><a href="/digiinc/index.php/codesk/sandton">Sandton</a></li></ul></li><li class="item-246"><a href="/digiinc/index.php/tools">Tools</a></li><li class="item-244"><a href="/digiinc/index.php/register/register">Register</a></li>
+</div></div>			</div>
+    
+    
+            
+                
+    
+    <!-- custom module position -->
+    
+</div>
+</div>				
+
+    
+    
+
+    <!-- Go to top -->
+                <a href="#" class="sp-scroll-up" aria-label="Scroll Up" style="display: inline;"><span class="fas fa-angle-up" aria-hidden="true"></span></a>
+                
+<div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><button type="button" id="cboxPrevious"></button><button type="button" id="cboxNext"></button><button id="cboxSlideshow"></button><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;"></div></div></body>
