@@ -40,7 +40,7 @@
 	
 	<div class="article-header">
 					<h2>
-									<a href="/digiinc/index.php/component/content/article/aligning-to-your-industry?catid=8&amp;Itemid=101">
+									<a href="https://radapps.co.za/digiinc/images/Article%20Images/jacques-nel-f0RvpwF-iXE-unsplash-scaled.jpg">
 						Aligning to your Industry					</a>
 							</h2>
 		
