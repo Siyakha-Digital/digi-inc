@@ -10,7 +10,7 @@
 <div class="login-card">
 <div class="login-heading">
 <h3>Hi, Welcome!</h3>
-<p>Register to get access to DreamGigs</p>
+<p>Register to get access to Digi Inc</p>
 </div>
 <div class="form-wrap form-focus">
 <span class="form-icon">
