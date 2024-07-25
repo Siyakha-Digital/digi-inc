@@ -55,3 +55,31 @@ Route::get('/register', function () {
 Route::get('/login', function () {
     return view('login.index');
 })->name('login');
+
+Route::get('/finance', function () {
+    return view('categories.finance.index');
+})->name('finance');
+
+Route::get('/customer', function () {
+    return view('categories.customer_service.index');
+})->name('customer');
+
+Route::get('/entrepreneurship', function () {
+    return view('categories.entrepreneurship.index');
+})->name('entrepreneurship');
+
+Route::get('/funding', function () {
+    return view('categories.funding.index');
+})->name('finance');
+
+Route::get('/management', function () {
+    return view('categories.management.index');
+})->name('management');
+
+Route::get('/marketing_sales', function () {
+    return view('categories.marketing_sales.index');
+})->name('marketing_sales');
+
+Route::get('/personal_growth', function () {
+    return view('categories.personal_growth.index');
+})->name('personal_growth');
