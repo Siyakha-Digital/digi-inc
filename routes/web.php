@@ -70,7 +70,7 @@ Route::get('/entrepreneurship', function () {
 
 Route::get('/funding', function () {
     return view('categories.funding.index');
-})->name('finance');
+})->name('funding'); // Corrected from 'finance' to 'funding'
 
 Route::get('/management', function () {
     return view('categories.management.index');
