@@ -18,28 +18,7 @@
 				<img class="logo-image  d-none d-lg-inline-block" srcset="https://radapps.co.za/digiinc/images/digi-inc-logo-01.png 1x, https://radapps.co.za/digiinc/images/digi-inc-logo-01.png 2x" src="https://radapps.co.za/digiinc/images/digi-inc-logo-01.png" height="60px" alt="My Joomla">
 				<img class="logo-image-phone d-inline-block d-lg-none" src="https://radapps.co.za/digiinc/images/digi-inc-logo-01.png" alt="My Joomla"></a></div>						
 					</div>
-				</div>
 
-				<!-- Menu -->
-				<div id="sp-menu" class="col-auto flex-auto" style="position: static;">
-					<div class="sp-column  d-flex justify-content-end align-items-center">
-						<nav class="sp-megamenu-wrapper d-flex" role="navigation"><ul class="sp-megamenu-parent menu-animation-fade-up d-none d-lg-block"><li class="sp-menu-item"></li><li class="sp-menu-item sp-has-child"><a href="/digiinc/index.php/news-feed">News Feed</a><div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a href="/digiinc/index.php/news-feed/inews">News</a></li></ul></div></div></li><li class="sp-menu-item sp-has-child"><a href="/digiinc/index.php/cowork">CoWork</a><div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a href="/digiinc/index.php/cowork/latest-projects">Opportunities</a></li></ul></div></div></li><li class="sp-menu-item"><a href="/digiinc/index.php/colab">CoLab</a></li><li class="sp-menu-item sp-has-child active"><span class=" sp-menu-separator">CoDesk</span><div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item current-item active"><a aria-current="page" href="/digiinc/index.php/codesk/cape-town">Cape Town</a></li><li class="sp-menu-item"><a href="/digiinc/index.php/codesk/sandton">Sandton</a></li></ul></div></div></li><li class="sp-menu-item"><a href="/digiinc/index.php/tools">Tools</a></li><li class="sp-menu-item"><a href="/digiinc/index.php/register/register">Register</a></li></ul><a id="offcanvas-toggler" aria-label="Menu" class="offcanvas-toggler-right" href="#"><div class="burger-icon" aria-hidden="true"><span></span><span></span><span></span></div></a></nav>						
-
-						<!-- Related Modules -->
-						<div class="d-none d-lg-flex header-modules align-items-center">
-								
-															<div class="sp-module">
-<a class="sp-sign-in" href="/digiinc/index.php/component/users/login?Itemid=101"><span class="far fa-user me-1" aria-hidden="true"></span><span class="signin-text d-none d-lg-inline-block">Sign In</span></a>
-</div>													</div>
-						
-						<!-- if offcanvas position right -->
-													<a id="offcanvas-toggler" aria-label="Menu" title="Menu" class="mega_offcanvas offcanvas-toggler-secondary offcanvas-toggler-right d-flex align-items-center" href="#">
-							<div class="burger-icon"><span></span><span></span><span></span></div>
-							</a>
-											</div>
-				</div>
-			</div>
-		</div>
 	</div>
 </header>				
 <section id="sp-section-1">
@@ -63,84 +42,6 @@
 		<div id="system-message-container" aria-live="polite">
 	</div>
 
-
-		
-		<div id="session_expiration" role="dialog" tabindex="-1" class="joomla-modal modal fade">
-	<div class="modal-dialog modal-xl ">
-		<div class="modal-content">
-			<div class="modal-header">
-            <h3 class="modal-title">Your session is expiring soon.</h3>
-                <button type="button" class="btn-close novalidate" data-bs-dismiss="modal" aria-label="Close">
-        </button>
-    </div>
-<div class="modal-body">
-    <div class="countdown"><span class="h">01</span> <span class="m">37</span> <span class="s">34</span></div><button type="button" class="btn btn-default"><i class="fa fa-sync"></i> Renew</button></div>
-<div class="modal-footer">
-    <button type="button" class="btn btn-secondary" data-dismiss="modal" data-bs-dismiss="modal" aria-hidden="true">Close</button></div>
-		</div>
-	</div>
-</div>
-<div id="solidres_user_login_form" tabindex="-1" class="joomla-modal modal fade" style="display: none;" aria-hidden="true">
-	<div class="modal-dialog modal-xl ">
-		<div class="modal-content">
-			<div class="modal-header">
-            <h3 class="modal-title">Login form</h3>
-                <button type="button" class="btn-close novalidate" data-bs-dismiss="modal" aria-label="Close">
-        </button>
-    </div>
-<div class="modal-body" style="max-height: initial;">
-    <form action="/digiinc/index.php/codesk/cape-town" method="post" id="login-form">
-	
-	<div id="form-login-username" class="mb-3">
-					<div class="input-group">
-				<span class="input-group-text" aria-label="Username"><span class="fas fa-user"></span></span>
-				<input id="modlgn-username" type="text" name="username" class="form-control" tabindex="0" size="18" placeholder="Username">
-			</div>
-			</div>
-
-	<div id="form-login-password" class="mb-3">
-					<div class="input-group">
-					<span class="input-group-text" aria-label="Password"><span class="fas fa-lock" aria-hidden="true"></span></span>
-				<input id="modlgn-passwd" type="password" name="password" class="form-control" tabindex="0" size="18" placeholder="Password">
-			</div>
-			</div>
-		
-			<div id="form-login-remember" class="mb-3 form-check">
-			<input id="modlgn-remember" type="checkbox" name="remember" class="form-check-input" value="yes">
-			<label for="modlgn-remember" class="control-label">Remember Me</label>
-		</div>
-	
-	<div id="form-login-submit" class="mb-3">
-		<button type="submit" tabindex="0" name="Submit" class="btn btn-primary login-button">Log in</button>
-	</div>
-
-		<ul class="unstyled">
-					<li>
-				<a href="/digiinc/index.php/signup">
-				Create an account <span class="icon-arrow-right"></span></a>
-			</li>
-				<li>
-			<a href="/digiinc/index.php/component/users/remind?Itemid=101">
-			Forgot your username?</a>
-		</li>
-		<li>
-			<a href="/digiinc/index.php/component/users/reset?Itemid=101">
-			Forgot your password?</a>
-		</li>
-	</ul>
-
-	<input type="hidden" name="option" value="com_users">
-	<input type="hidden" name="task" value="user.login">
-	<input type="hidden" name="return" value="aHR0cHM6Ly9yYWRhcHBzLmNvLnphL2RpZ2lpbmMvaW5kZXgucGhwL2NvZGVzay9jYXBlLXRvd24=">
-	<input type="hidden" name="f69c572ce30de069587b7afcdd374a6a" value="1">
-	
-</form>
-</div>
-<div class="modal-footer">
-    <button type="button" class="btn btn-secondary" data-dismiss="modal" data-bs-dismiss="modal" aria-hidden="true">Close</button></div>
-		</div>
-	</div>
-</div>
 <div id="solidres" class="bs5 reservation_asset_default">
     <div class="reservation_asset_item clearfix">
         <div class="row">
