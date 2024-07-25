@@ -48,36 +48,43 @@
             'id' => '1',
             'name' => 'Entrepreneurship',
             'count' => '12',
+            'route' => 'entrepreneurship', // route added here
         ],
         [
             'id' => '2',
             'name' => 'Funding',
             'count' => '05',
+            'route' => 'funding', // route added here
         ],
         [
             'id' => '3',
             'name' => 'Management',
             'count' => '04',
+            'route' => 'management', // route added here
         ],
         [
             'id' => '4',
             'name' => 'Marketing & Sales',
             'count' => '05',
+            'route' => 'marketing_sales', // route added here
         ],
         [
             'id' => '5',
             'name' => 'Personal Growth',
             'count' => '01',
+            'route' => 'personal_growth', // route added here
         ],
         [
             'id' => '6',
             'name' => 'Finance',
             'count' => '08',
+            'route' => 'finance', // route added here
         ],
         [
             'id' => '7',
             'name' => 'Customer Service',
             'count' => '02',
+            'route' => 'customer', // route added here
         ],
     ];
 
@@ -219,95 +226,51 @@
                     style="position: relative; overflow: visible; box-sizing: border-box; min-height: 1px;">
 
                     <div class="theiaStickySidebar"
-                        style="padding-top: 0px; padding-bottom: 1px; position: static; transform: none; top: 0px;">
+                        style="padding-top: 0px; padding-bottom: 1px; position: static; transform: none;">
+                        <div class="blog-sidebar" style="margin-top: 0px;">
 
-                        <div class="blog-sidebar mb-0">
-
-                            {{-- Search Bar --}}
-                            <div class="card search-widget">
-                                <div class="card-header">
-                                    <h6>Search</h6>
+                            {{-- Search --}}
+                            <div class="widget search-widget">
+                                <div class="widget-title">
+                                    <h4>Search</h4>
                                 </div>
-                                <div class="card-body">
-                                    <form action="#">
-                                        <div class="form-group search-group mb-0">
-                                            <span class="search-icon"><svg xmlns="http://www.w3.org/2000/svg" width="14"
-                                                    height="12" fill="currentColor" class="bi bi-search"
-                                                    viewBox="0 0 16 16">
-                                                    <path
-                                                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.099zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-                                                </svg></span>
-                                            <input type="text" class="form-control" placeholder="Enter Keyword ...">
-                                        </div>
-                                    </form>
+                                <div class="search-form">
+                                    <input type="text" class="form-control" placeholder="Search here">
+                                    <button type="submit" class="btn btn-primary">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M21 21L15 15M11 19C8.87827 19 6.84344 18.1571 5.34315 16.6569C3.84285 15.1566 3 13.1217 3 11C3 8.87827 3.84285 6.84344 5.34315 5.34315C6.84344 3.84285 8.87827 3 11 3C13.1217 3 15.1566 3.84285 16.6569 5.34315C18.1571 6.84344 19 8.87827 19 11C19 13.1217 18.1571 15.1566 16.6569 16.6569C15.1566 18.1571 13.1217 19 11 19Z"
+                                                stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </button>
                                 </div>
                             </div>
-
 
                             {{-- Categories --}}
-                            <div class="card category-widget">
-                                <div class="card-header">
-                                    <h6>Categories</h6>
+                            <div class="widget category-widget">
+                                <div class="widget-title">
+                                    <h4>Categories</h4>
                                 </div>
-                                <div class="card-body">
-                                    <ul class="categories">
-                                        {{-- Display the first four categories directly --}}
-                                        @foreach ($categories as $index => $category)
-                                            @if ($index < 4)
-                                                <li><a
-                                                        href="#">{{ $category['name'] }}<span>{{ $category['count'] }}</span></a>
-                                                </li>
-                                            @else
-                                            @break
-                                        @endif
+                                <ul class="categories">
+                                    {{-- Categories links --}}
+                                    @foreach ($categories as $category)
+                                        <li>
+                                            {{-- Dynamic category link --}}
+                                            <a href="{{ route($category['route']) }}">{{ $category['name'] }}
+                                                <span>({{ $category['count'] }})</span>
+                                            </a> {{-- Change made here --}}
+                                        </li>
                                     @endforeach
-                                
-                                @if (count($categories) > 4)
-                                   
-                                <div class="view-content" id="viewall-one" style="display:none;">
-                                    
-                                        {{-- Display the rest of the categories --}}
-                                        @foreach ($categories as $index => $category)
-                                            @if ($index >= 4)
-                                                <li><a href="#">{{ $category['name'] }} <span>{{ $category['count'] }}</span></a></li>
-                                            @endif
-                                        @endforeach
-                                    </ul>
-                                </div>
-                                    <div class="view-all">
-                                        <a href="javascript:void(0);" class="viewall-button-one"
-                                            id="viewall-button-one">View All</a>
-                                    </div>
-                                @endif
+                                </ul>
                             </div>
                         </div>
 
-                    </div>
-
-                    <div class="resize-sensor"
-                        style="position: absolute; inset: 0px; overflow: hidden; z-index: -1; visibility: hidden;">
-                        <div class="resize-sensor-expand"
-                            style="position: absolute; left: 0; top: 0; right: 0; bottom: 0; overflow: hidden; z-index: -1; visibility: hidden;">
-                            <div
-                                style="position: absolute; left: 0px; top: 0px; transition: all 0s ease 0s; width: 864px; height: 1093px;">
-                            </div>
-                        </div>
-                        <div class="resize-sensor-shrink"
-                            style="position: absolute; left: 0; top: 0; right: 0; bottom: 0; overflow: hidden; z-index: -1; visibility: hidden;">
-                            <div style="position: absolute; left: 0; top: 0; transition: 0s; width: 200%; height: 200%">
-                            </div>
-                        </div>
                     </div>
                 </div>
-            </div>
 
+            </div>
         </div>
     </div>
-</div>
-
-
-<br>
-{{-- Footer Section --}}
-@include('components.footer ')
-
 @endsection
