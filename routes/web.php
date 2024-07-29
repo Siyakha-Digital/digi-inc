@@ -36,41 +36,9 @@ Route::get('/cowork', function () {
     return view('cowork.index');
 })->name('cowork');
 
-
-// Group routes  'colab' 
-Route::prefix('colab')->group(function () {
-
-    // Route for the index page
-    Route::get('/', function () {
-        return view('colab.index');
-    })->name('colab.index');
-
-    // Route for the Women in Tech page
-    Route::get('/women-in-tech', function () {
-        return view('colab.women-in-tech');
-    })->name('colab.women-in-tech');
-
-    // Route for the Members page
-    Route::get('/members', function () {
-        return view('colab.members');
-    })->name('colab.members');
-
-    // Route for the Media page
-    Route::get('/media', function () {
-        return view('colab.media');
-    })->name('colab.media');
-
-    // Route for the Overview page
-    Route::get('/overview', function () {
-        return view('colab.overview');
-    })->name('colab.overview');
-
-    // Route for the Taks the Dev page
-    Route::get('/taks-the-dev', function () {
-        return view('colab.taks-the-dev');
-    })->name('colab.taks-the-dev');
-});
-
+Route::get('/colab', function () {
+    return view('colab.index');
+})->name('colab');
 
 Route::get('/codesk', function () {
     return view('codesk.index');
