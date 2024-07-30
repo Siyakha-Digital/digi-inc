@@ -34,24 +34,33 @@
                             <div class="sp-column">
                                 <div id="system-message-container" aria-live="polite">
                                 </div>
-                            </div><div id="solidres" class="bs5 reservation_asset_default">
-                                <div class="reservation_asset_item clearfix">
-                                    <div class="row">
-                                        <div class="col-md-9">
-                                            <h1>
-                                                Cape Town Shared Space
-                                                <span class="rating-wrapper">
-                                                    <i class="rating fa fa-star"></i>
-                                                    <i class="rating fa fa-star"></i>
-                                                    <i class="rating fa fa-star"></i>
-                                                    <i class="rating fa fa-star"></i>
-                                                    <i class="rating fa fa-star"></i>
-                                                </span>
-                                            </h1>
-                                        </div>
-                                        <div class="col-md-3">
-                                        </div>
-                                    </div>
+                            </div>
+                            <div class="user-review">
+    <ul class="review-lists">
+    <li>
+    <div class="review-wrap">
+    <div>
+    <div class="review-user-info">
+    <div class="review-img">
+    <img src="assets/img/user/user-01.jpg" alt="img">
+    </div>
+    <div class="reviewer-info">
+    <div class="reviewer-loc">
+    <h6><a href="javascript:void(0);">Cape Town Shared Space</a></h6>
+    </div>
+    <div class="reviewer-rating">
+    <div class="star-rate">
+    <span class="ratings">
+    <i class="fa-solid fa-star filled"></i>
+    <i class="fa-solid fa-star filled"></i>
+    <i class="fa-solid fa-star filled"></i>
+    <i class="fa-solid fa-star filled"></i>
+    <i class="fa-solid fa-star filled"></i>
+    </span>
+    <span class="rating-count">5.0 </span>
+    </div>
+    <p>2 days ago</p>
+    </div>
                                     <div class="row">
                                         <div class="col-md-12">
                                             <span class="address_1 reservation_asset_subinfo">
@@ -60,7 +69,7 @@
                                                     Show map
                                                 </a>
                                             </span>
-                                            
+                            
                                             <span class="social_network reservation_asset_subinfo clearfix">
                                             </span>
                                         </div>
@@ -77,10 +86,11 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="alert alert-info sr-login-form">
-                                        <i class="fa fa-sign-in"></i> Are you a member? If yes please <a id="toggle_login_form" href="javascript:void(0)">click here to login</a>.
+                                        <i class="fa fa-sign-in"></i> Are you a member? If yes please <a id="toggle_login_form" href="javascript:void(0)"></a><a href="register.html">click here to login</a>.
                                     </div>
                                 </div>
                             </div>
+                            
                             
                             <div class="row">
                                 <div class="col-md-12">
@@ -88,7 +98,7 @@
                                     <div class="wizard wizard-default">
                                         <ul class="steps">
                                             <li data-target="#step1" class="list-inline-item active reservation-tab reservation-tab-room">
-                                                <span class="badge badge-info">1</span> Room &amp; Rates <span class="chevron">›</span>
+                                                <span class="badge bg-secondary">1</span> Room &amp; Rates <span class="chevron">›</span>
                                             </li>
                                             <li data-target="#step2" class="list-inline-item reservation-tab reservation-tab-guestinfo">
                                                 <span class="badge bg-secondary">2</span> Guest info &amp; Payment <span class="chevron">›</span>
@@ -255,6 +265,9 @@
         </div> 
     </div> 
 </footer> 
-                                                     
+</section>
+</div>
+</div>
+@endsection                                      
                             
         
