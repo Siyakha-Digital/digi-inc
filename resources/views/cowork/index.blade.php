@@ -1,43 +1,21 @@
 @extends('layouts.app')
 @section('content')
-
+<div class="page-content">
 <div class="container">
-					<div class="container-inner">
-						
-	
 <div class="row">
-	
-<main id="sp-component" class="col-lg-12 ">
-	<div class="sp-column ">
-		<div id="system-message-container" aria-live="polite">
-	</div>
+<div class="col-md-12">
+<div class="marketing-section gig-post">
+<div class="marketing-content">
 
-
-		
-		<script type="text/javascript">
-<!--
-jQuery(document).ready(function($){
-	$("#signup").click(function(){
-		$("html, body").animate({
-			scrollTop: $("#ugselect").offset().top
-		}, 500);
-	});
-});
-
-function selectRole(ugId){
-	jQuery("button.active").removeClass("active btn-success");
-	jQuery('#btn_ug_id'+ugId).addClass("active btn-success");
-}
-//-->
-</script>
-<div class="row mb-4">
-	<div class="col-md-8">
-		<div class="card shadow h-100">
-			<div class="card-header">
-				<h4>Welcome to DigiInc</h4>
-			</div>
+</div>
+<!-- <div class="card shadow h-100"> -->
+			<!-- <div class="card-header"> -->
+				
+			<!-- </div> -->
 			<div class="card-body">
+                
     			<ul id="featurelist">
+                <li>Welcome to DigiInc</li>
     				<li>Hire online for a fraction of the cost!</li>
     				<li>Outsource anything you can think of!</li>
     	            <li>Programmers, designers, content writers are ready now!</li>
@@ -46,58 +24,81 @@ function selectRole(ugId){
     			    			<a href="#ugselect" id="signup" class="btn btn-outline-primary btn-lg">Sign Up now!</a>
     						</div>
 		</div>
-	</div>
-	<div class="col-md-4">
-		<div class="card shadow h-100">
-			<div class="card-header">
-				<h4>Members Login</h4>
-			</div>
-			<div class="card-body">
-        	   <!-- if user is guest -->
-                        	    <div class="p-3">
-        	    	<form action="/digiinc/index.php/cowork" method="post" name="login" id="form-login" class="m-0">
-        	        	<div class="form-group mb-3">
-        					<label for="username" class="sr-only">Username</label>
-                            <div class="input-group">
-								<span class="input-group-text"><i class="icon-user"></i></span>
-                              	<input class="form-control" type="text" name="username" id="username">
-                              	<span class="input-group-text">
-									<a href="/digiinc/index.php/component/users/remind?Itemid=101" class="text-muted" title="Forgot your Username?" tabindex="-1"><i class="icon-question-sign"></i></a>
-								</span>
-                            </div>
-        	        	</div>
-        	        	<div class="form-group mb-3">
-        					<label for="password" class="sr-only">Password</label>
-        					<div class="input-group">
-								<span class="input-group-text"><i class="icon-lock"></i></span>
-                            	<input type="password" class="form-control" name="password" id="password">
-								<span class="input-group-text">
-									<a href="/digiinc/index.php/component/users/reset?Itemid=101" class="text-muted" title="Forgot your Password?" tabindex="-1">
-										<i class="icon-question-sign"></i>
-									</a>
-								</span>
-        					</div>
-        				</div>
-        				<div class="form-group form-check mb-3">
-        					<input type="checkbox" class="form-check-input" id="remember" name="remember">
-        					<label class="form-check-label" for="remember">Remember me</label>
-        				</div>
-        				<button type="submit" name="submit" id="submit" class="btn btn-outline-success">Log in</button>
-        				        				<input type="hidden" name="option" value="com_users">
-        				<input type="hidden" name="task" value="user.login">
-        				<input type="hidden" name="return" value="aW5kZXgucGhwP29wdGlvbj1jb21famJsYW5jZSZ2aWV3PXVzZXImbGF5b3V0PWRhc2hib2FyZA==">
-        				<input type="hidden" name="6c6aad5711d33bd665f62ce13235a62b" value="1">        	        </form>
-        		</div>
-        				</div>
-		</div>
-	</div>
+
+<div class="marketing-bg">
+
+<!-- </div> -->
+</div>
 </div>
 
-<a id="ugselect"></a>
+<div class="col-lg-4">
+<div class="property-info">
+<h4>Members Login</h4>
+<p>Add the Details of your Gig to know the user to receive orders</p>
+</div>
+</div>
+<div class="col-lg-8">
+  <div class="add-property-wrap">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="form-wrap">
+          <div class="team-form w-100">
+            <div class="team-form-heading">
+              <h3>Login</h3>
+              <p>Please enter your credentials</p>
+            </div>
+            <form action="#">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Username">
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Password">
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="rememberMe">
+                    <label class="form-check-label" for="rememberMe">Remember Me</label>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="form-group mb-0">
+                    <button type="submit" class="btn btn-primary">Login</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-<div class="row mt-3">
-		<div class="col-md-6">
-		<div class="card shadow h-100">
+
+<div class="col-lg-4">
+<div class="property-info">
+<h4>Freelancer</h4>
+<p>Add the Details of your Gig to know the user to receive orders</p>
+</div>
+</div>
+
+<div class="col-lg-8">
+  <div class="add-property-wrap">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="form-wrap">
+          <div class="team-form w-100">
+            <div class="team-form-heading">
+              <h3>Freelancer</h3>
+              <p>How can I help you? Please write down your query</p>
+            </div>
+            <!-- <div class="col-md-6"> -->
+		<!-- <div class="card shadow h-100"> -->
 			<div class="card-header text-center jbf-bg-primary">
 				<h2 class="d-inline text-white">Freelancer</h2>
 							</div>
@@ -119,13 +120,81 @@ function selectRole(ugId){
 				<input type="hidden" name="ugid" value="1">
 				<input type="hidden" name="option" value="com_jblance">
 				<input type="hidden" name="task" value="guest.grabusergroupinfo">
-				<input type="hidden" name="6c6aad5711d33bd665f62ce13235a62b" value="1">			</form>
+				<input type="hidden" name="d3b51feb1f3222eb9a784df2c3b7d6e2" value="1">			</form>
 			</div>
 		</div>
 
 	</div>
-		<div class="col-md-6">
-		<div class="card shadow h-100">
+          <!-- </div>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="col-lg-10">
+  <div class="add-property-wrap">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="form-wrap">
+          <div class="team-form w-100">
+            <div class="team-form-heading">
+              <!-- <h3>Login</h3>
+              <p>Please enter your credentials</p> -->
+            </div>
+            <p>Note: If the profile type chosen requires approval from site administrators, your account will automatically be disabled until an administrator approves your account.</p>
+            <!-- <form action="#">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Username">
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Password">
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="rememberMe">
+                    <label class="form-check-label" for="rememberMe">Remember Me</label>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="form-group mb-0">
+                    <button type="submit" class="btn btn-primary">Login</button>
+                  </div>
+                </div>
+              </div>
+            </form> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="col-lg-4">
+<div class="property-info">
+<h4>Buyer</h4>
+<p>Add the Details of your Gig to know the user to receive orders</p>
+</div>
+</div>
+<div class="col-lg-8">
+  <div class="add-property-wrap">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="form-wrap">
+          <div class="team-form w-100">
+            <div class="team-form-heading">
+              <h3>Buyer</h3>
+              <p>How can I help you? Please write down your query</p>
+            </div>
+            <!-- <div class="col-md-6">
+		<div class="card shadow h-100"> -->
 			<div class="card-header text-center jbf-bg-primary">
 				<h2 class="d-inline text-white">Buyer</h2>
 							</div>
@@ -147,28 +216,19 @@ function selectRole(ugId){
 				<input type="hidden" name="ugid" value="2">
 				<input type="hidden" name="option" value="com_jblance">
 				<input type="hidden" name="task" value="guest.grabusergroupinfo">
-				<input type="hidden" name="6c6aad5711d33bd665f62ce13235a62b" value="1">			</form>
+				<input type="hidden" name="d3b51feb1f3222eb9a784df2c3b7d6e2" value="1">			</form>
 			</div>
 		</div>
 
 	</div>
-	</div>
-	
-<p class="alert alert-info mt-3">
-Note: If the profile type chosen requires approval from site administrators, your account will automatically be disabled until an administrator approves your account.</p>
-<div class="text-center p-2">
-		<div class="border-top pt-3 mt-3" id="showcredit" style="display:none">
-		<img src="/digiinc/media/com_jblance/images/joombri16.png" width="16"> 
-		Powered By JoomBri Freelance - <a href="http://www.joombri.in" target="_blank">Freelance Directory Component</a>
-	</div>	
-		<div id="jbversioninfo" style="display:none;">4.9.0</div>
+          <!-- </div>
+        </div> -->
+      </div>
+    </div>
+  </div>
 </div>
 
 
-			</div>
-</main>
-</div>
-											</div>
-				</div>
-				@include('components.footer')
+
+@include('components.footer')
 @endsection
