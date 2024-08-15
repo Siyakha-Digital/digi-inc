@@ -1133,9 +1133,3 @@
             toggleEditForm(id, false);
         }
     </script>
-
-    <footer>
-        <p>&copy; 2023 The Digi Inc. All rights reserved.</p>
-    </footer>
-</body>
-</html>
