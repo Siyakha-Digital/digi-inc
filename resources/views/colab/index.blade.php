@@ -3,445 +3,499 @@
 @section('content')
 <div class="body-wrapper">
     <div class="body-innerwrapper">
-        <div class="sticky-header-placeholder" style="height: 80px;"></div>
-        <header id="sp-header" class="header-sticky">
-            <div class="container">
-                <div class="container-inner">
-                    <div class="row" style="position: relative;">
-                        <!-- Logo -->
-                        <div id="sp-logo" class="col-auto">
-                            <div class="sp-column">
-                                <div class="logo">
-                                    <a href="/digiinc/">
-                                        <img class="logo-image d-none d-lg-inline-block" srcset="https://radapps.co.za/digiinc/images/digi-inc-logo-01.png 1x, https://radapps.co.za/digiinc/images/digi-inc-logo-01.png 2x" src="https://radapps.co.za/digiinc/images/digi-inc-logo-01.png" height="60px" alt="My Joomla">
-                                        <img class="logo-image-phone d-inline-block d-lg-none" src="https://radapps.co.za/digiinc/images/digi-inc-logo-01.png" alt="My Joomla">
-                                    </a>
-                </div>
-            </div>
-
-    <div class="breadcrumb-bar">
-        <div class="breadcrumb-img">
-            <div class="breadcrumb-left">
-                <img src="assets/img/bg/banner-bg-03.png" alt="img">
-            </div>
-        </div>
-        <div class="container">
+        <section id="sp-section-1">
             <div class="row">
-                <div class="col-md-12 col-12">
-                    <h2 class="breadcrumb-title">
-                        JS Members
-                    </h2>
+                <div id="sp-title" class="col-lg-12">
+                    <div class="sp-column"></div>
                 </div>
             </div>
-        </div>
-    </div>
-    
-<section class="team-section">
-<div class="container">
-<div class="row">
-<div class="col-lg-12">
-<div class="team-slider owl-carousel">
-<div class="team-grid">
-<div class="team-img">
-<div class="team-overlay-img">
-<img src="assets/img/team/team-01.jpg" class="img-fluid" alt="Team">
-</div>
-<div class="team-view-btn">
-<a href="team-details.html" class="btn btn-primary">View Detail</a>
-</div>
-</div>
-<div class="team-content">
-<div class="team-title">
-<h4>
-<a href="team-details.html">Christopher Carlton</a>
-</h4>
-<p>Chief Executing Officer</p>
-</div>
-<div class="team-social-links">
-<a href="#" target="_blank">
-<i class="feather-facebook hi-icon"></i>
-</a>
-<a href="#" target="_blank">
-<i class="feather-twitter hi-icon"></i>
-</a>
-<a href="#" target="_blank">
-<i class="feather-linkedin hi-icon"></i>
-</a>
-</div>
-</div>
-</div>
-<div class="team-grid">
-<div class="team-img">
-<div class="team-overlay-img">
-<img src="assets/img/team/team-02.jpg" class="img-fluid" alt="Team">
-</div>
-<div class="team-view-btn">
-<a href="team-details.html" class="btn btn-primary">View Detail</a>
-</div>
-</div>
-<div class="team-content">
-<div class="team-title">
-<h4>
-<a href="team-details.html">Roberta Addison</a>
-</h4>
-<p>Chief Technology Officer</p>
-</div>
-<div class="team-social-links">
-<a href="#" target="_blank">
-<i class="feather-facebook hi-icon"></i>
-</a>
-<a href="#" target="_blank">
-<i class="feather-twitter hi-icon"></i>
-</a>
-<a href="#" target="_blank">
-<i class="feather-linkedin hi-icon"></i>
-</a>
-</div>
-</div>
-</div>
-<div class="team-grid">
-<div class="team-img">
-<div class="team-overlay-img">
-<img src="assets/img/team/team-03.jpg" class="img-fluid" alt="Team">
-</div>
-<div class="team-view-btn">
-<a href="team-details.html" class="btn btn-primary">View Detail</a>
-</div>
-</div>
-<div class="team-content">
-<div class="team-title">
-<h4>
-<a href="team-details.html">Bryant Stephan</a>
-</h4>
-<p>Chief Financial Officer</p>
-</div>
-<div class="team-social-links">
-<a href="#" target="_blank">
-<i class="feather-facebook hi-icon"></i>
-</a>
-<a href="#" target="_blank">
-<i class="feather-twitter hi-icon"></i>
-</a>
-<a href="#" target="_blank">
-<i class="feather-linkedin hi-icon"></i>
-</a>
-</div>
-</div>
-</div>
-<div class="team-grid">
-<div class="team-img">
-<div class="team-overlay-img">
-<img src="assets/img/team/team-07.jpg" class="img-fluid" alt="Team">
-</div>
-<div class="team-view-btn">
-<a href="team-details.html" class="btn btn-primary">View Detail</a>
-</div>
-</div>
-<div class="team-content">
-<div class="team-title">
-<h4>
-<a href="team-details.html">Helen Miller</a>
-</h4>
-<p>Lead Software Developer</p>
-</div>
-<div class="team-social-links">
-<a href="#" target="_blank">
-<i class="feather-facebook hi-icon"></i>
-</a>
-<a href="#" target="_blank">
-<i class="feather-twitter hi-icon"></i>
-</a>
-<a href="#" target="_blank">
-<i class="feather-linkedin hi-icon"></i>
-</a>
-</div>
-</div>
-</div>
-<div class="team-grid">
-<div class="team-img">
-<div class="team-overlay-img">
-<img src="assets/img/team/team-04.jpg" class="img-fluid" alt="Team">
-</div>
-<div class="team-view-btn">
-<a href="team-details.html" class="btn btn-primary">View Detail</a>
-</div>
-</div>
-<div class="team-content">
-<div class="team-title">
-<h4>
-<a href="team-details.html">Colby Sandoval</a>
-</h4>
-<p>UI/UX Designer</p>
-</div>
-<div class="team-social-links">
-<a href="#" target="_blank">
-<i class="feather-facebook hi-icon"></i>
-</a>
-<a href="#" target="_blank">
-<i class="feather-twitter hi-icon"></i>
-</a>
-<a href="#" target="_blank">
-<i class="feather-linkedin hi-icon"></i>
-</a>
-</div>
-</div>
-</div>
-<div class="team-grid">
-<div class="team-img">
-<div class="team-overlay-img">
-<img src="assets/img/team/team-08.jpg" class="img-fluid" alt="Team">
-</div>
-<div class="team-view-btn">
-<a href="team-details.html" class="btn btn-primary">View Detail</a>
-</div>
-</div>
-<div class="team-content">
-<div class="team-title">
-<h4>
-<a href="team-details.html">Margarete Kaitlin</a>
-</h4>
-<p>Data Analyst</p>
-</div>
-<div class="team-social-links">
-<a href="#" target="_blank">
-<i class="feather-facebook hi-icon"></i>
-</a>
-<a href="#" target="_blank">
-<i class="feather-twitter hi-icon"></i>
-</a>
-<a href="#" target="_blank">
-<i class="feather-linkedin hi-icon"></i>
-</a>
-</div>
-</div>
-</div>
-<div class="team-grid">
-<div class="team-img">
-<div class="team-overlay-img">
-<img src="assets/img/team/team-05.jpg" class="img-fluid" alt="Team">
-</div>
-<div class="team-view-btn">
-<a href="team-details.html" class="btn btn-primary">View Detail</a>
-</div>
-</div>
-<div class="team-content">
-<div class="team-title">
-<h4>
-<a href="team-details.html">Charles Hemphill</a>
-</h4>
-<p>Sales Manager</p>
-</div>
-<div class="team-social-links">
-<a href="#" target="_blank">
-<i class="feather-facebook hi-icon"></i>
-</a>
-<a href="#" target="_blank">
-<i class="feather-twitter hi-icon"></i>
-</a>
-<a href="#" target="_blank">
-<i class="feather-linkedin hi-icon"></i>
-</a>
-</div>
-</div>
-</div>
-<div class="team-grid">
-<div class="team-img">
-<div class="team-overlay-img">
-<img src="assets/img/team/team-09.jpg" class="img-fluid" alt="Team">
-</div>
-<div class="team-view-btn">
-<a href="team-details.html" class="btn btn-primary">View Detail</a>
-</div>
-</div>
-<div class="team-content">
-<div class="team-title">
-<h4>
-<a href="team-details.html">Angela Estrada</a>
-</h4>
-<p>Product Manager</p>
-</div>
-<div class="team-social-links">
-<a href="#" target="_blank">
-<i class="feather-facebook hi-icon"></i>
-</a>
-<a href="#" target="_blank">
-<i class="feather-twitter hi-icon"></i>
-</a>
-<a href="#" target="_blank">
-<i class="feather-linkedin hi-icon"></i>
-</a>
-</div>
-</div>
-</div>
-<div class="team-grid">
-<div class="team-img">
-<div class="team-overlay-img">
-<img src="assets/img/team/team-06.jpg" class="img-fluid" alt="Team">
-</div>
-<div class="team-view-btn">
-<a href="team-details.html" class="btn btn-primary">View Detail</a>
-</div>
-</div>
-<div class="team-content">
-<div class="team-title">
-<h4>
-<a href="team-details.html">Robert Sherrard</a>
-</h4>
-<p>Operations Manager</p>
-</div>
-<div class="team-social-links">
-<a href="#" target="_blank">
-<i class="feather-facebook hi-icon"></i>
-</a>
-<a href="#" target="_blank">
-<i class="feather-twitter hi-icon"></i>
-</a>
-<a href="#" target="_blank">
-<i class="feather-linkedin hi-icon"></i>
-</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
+        </section>
 
+        <style>
+            body {
+                font-family: 'Arial', sans-serif;
+                margin: 0;
+                padding: 0;
+                color: #333;
+                background-color: #fff;
+            }
 
+            header, footer {
+                background-color: #000; /* Black */
+                color: #fff; /* White */
+                padding: 15px 20px;
+                text-align: center;
+            }
 
+            nav button {
+                margin: 0 5px;
+                padding: 8px 16px;
+                border: none;
+                border-radius: 5px;
+                background-color: #000; /* Black */
+                color: #fff; /* White */
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+            }
 
-<div class="mouse-cursor cursor-outer"></div>
-<div class="mouse-cursor cursor-inner"></div>
+            nav button:hover {
+                background-color: #333; /* Darker Gray */
+            }
 
+            .hero {
+                text-align: center;
+                background: linear-gradient(to right, #000, #333); /* Black to Gray Gradient */
+                color: white;
+                padding: 60px 20px;
+                border-radius: 0 0 15px 15px;
+            }
 
-<div class="back-to-top">
-<a class="back-to-top-icon align-items-center justify-content-center d-flex" href="#top">
-<img src="assets/img/icons/arrow-badge-up.svg" alt="img">
-</a>
-</div>
+            .hero h1 {
+                font-size: 2.5rem;
+                margin-bottom: 20px;
+            }
 
-</div>
+            .hero p {
+                font-size: 1.2rem;
+                margin-bottom: 30px;
+            }
 
+            .hero button {
+                background-color: #fff;
+                color: #000; /* Black */
+                border: none;
+                padding: 10px 20px;
+                font-size: 1rem;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+            }
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery-3.7.1.min.js" type="f84c31301866542cbbd6fb57-text/javascript"></script>
+            .hero button:hover {
+                background-color: #e6e6e6; /* Light Gray */
+            }
 
-<script src="assets/js/bootstrap.bundle.min.js" type="f84c31301866542cbbd6fb57-text/javascript"></script>
-<script src="assets/js/bootstrap-scrollspy.js" type="f84c31301866542cbbd6fb57-text/javascript"></script>
+            .login-form {
+                max-width: 500px;
+                margin: 40px auto;
+                padding: 20px;
+                background-color: #fff;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
 
-<script src="assets/js/feather.min.js" type="f84c31301866542cbbd6fb57-text/javascript"></script>
+            .login-form h2 {
+                text-align: center;
+                margin-bottom: 20px;
+                color: #000; /* Black */
+            }
 
-<script src="assets/js/owl.carousel.min.js" type="f84c31301866542cbbd6fb57-text/javascript"></script>
+            .login-form input, .login-form button {
+                display: block;
+                width: calc(100% - 20px);
+                margin: 10px auto;
+                padding: 12px;
+                border-radius: 5px;
+                border: 1px solid #ccc;
+                font-size: 1rem;
+            }
 
-<script src="assets/js/script.js" type="f84c31301866542cbbd6fb57-text/javascript"></script>
-<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="f84c31301866542cbbd6fb57-|49" defer></script></body>
-</html>
+            .login-form input:focus {
+                border-color: #000; /* Black */
+                outline: none;
+            }
 
-<div class="page-content">
-    <div class="container">
+            .login-form button {
+                background-color: #000; /* Black */
+                color: white;
+                border: none;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+            }
 
-        <div class="blog">
-            <div class="row justify-content-center">
+            .login-form button:hover {
+                background-color: #333; /* Darker Gray */
+            }
 
-                <div class="col-lg-8">
-                    <div class="blog-grid">
-                        <div class="blog-img">
-                            <a href="blog-details.html"><img src="assets/img/blog/blog-01.jpg" class="img-fluid" alt="img"></a>
-                            <div class="fav-selection">
-                                <a href="javascript:void(0);" class="fav-icon"><i class="feather-heart"></i></a>
-                            </div>
-                        </div>
-                        <div class="blog-content">
-                            <div class="blog-content-footer d-flex justify-content-between align-items-center">
-                                <p><span><i class="feather-clock"></i></span>Women in Tech Experience 2023</p>
-                            </div>
-                            <div class="blog-title">
-                                <h3><a href="blog-details.html">This year, the unique event calls on women from all corners of the tech world to unite and join the SHEvolution movement</a></h3>
-                            </div>
-                            <div class="user-head">
-                                <div class="user-info">
-                                    <a href="javascript:void(0);"><img src="assets/img/user/user-06.jpg" alt="img"></a>
-                                    <h6><a href="javascript:void(0);">Wednesday,</a><span> 18 October 2023 09:00 AM</span></h6>
-                                </div>
-                                <div class="badge-text">
-                                    <a href="javascript:void(0);" class="badge bg-primary-light">Johannesburg, South Africa</a>
-                                </div>
-                            </div>
+            .login-form div {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .login-form a {
+                color: #000; /* Black */
+                text-decoration: none;
+                font-size: 0.9rem;
+            }
+
+            .login-form a:hover {
+                text-decoration: underline;
+            }
+
+            .events {
+                max-width: 900px;
+                margin: 40px auto;
+                padding: 20px;
+                background-color: #fff;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+
+            .events h2 {
+                color: #000; /* Black */
+                font-size: 2rem;
+                margin-bottom: 15px;
+            }
+
+            .events p {
+                font-size: 1rem;
+                line-height: 1.6;
+                margin-bottom: 15px;
+            }
+
+            .events img {
+                width: 100%;
+                border-radius: 8px;
+                margin-bottom: 15px;
+            }
+
+            .events .details {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                margin-bottom: 20px;
+            }
+
+            .events .details div {
+                flex: 1;
+                min-width: 200px;
+                background-color: #000; /* Black */
+                color: white;
+                padding: 10px;
+                border-radius: 8px;
+            }
+
+            .events .details div h4 {
+                margin: 0;
+                font-size: 1.2rem;
+            }
+        </style>
+        
+        <div class="joms-body">
+            <div class="joms-sidebar"></div>
+
+            <div class="joms-main-content">
+                <div class="joms-tab-bar">
+                    <a href="#joms-app--129" class="active">JS Members</a>
+                </div>
+
+                <div id="joms-app--129" class="joms-tab-content">
+                    <div class="joms-module">
+                        <div class="joms-member-module">
+                            <div class="joms-gap"></div>
+                            <ul class="joms-list-thumbnail">
+                                <!-- Member Thumbnails -->
+                                <li class="joms-list-item">
+                                    <a href="/digiinc/index.php/cowork/profile/edit-profile/119-siyabonga" class="joms-avatar">
+                                        <img src="https://radapps.co.za/digiinc/images/avatar/thumb_3fdff448767f45551b3a2996.jpg" alt="Siyabonga" title="Siyabonga">
+                                    </a>
+                                </li>
+                                <!-- Repeat other list items -->
+                            </ul>
+                            <div class="joms-gap"></div>
+                            <a href="/digiinc/index.php/colab/search/browse" class="joms-view-all">
+                                <small>View All (17)</small>
+                            </a>
                         </div>
                     </div>
                 </div>
-
             </div>
-        </div>
-
-        <div class="breadcrumb-bar breadcrumb-info">
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-7 col-12">
-                        <h2 class="breadcrumb-title">
-                            Women in Tech Experience 2023
-                        </h2>
-                        <ul class="info-links">
-                            <li>
-                                <i class="feather-calendar"></i>Wednesday, 18 October 2023 09:00 AM
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-5 col-12">
-                        <ul class="breadcrumb-links">
-                            <li>
-                                <a href="javascript:void(0);"><span><i class="feather-heart"></i></span>Add to Events</a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);"><span><i class="feather-share-2"></i></span>Share this event</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div class="joms-tab__bar">
+        <a class="active" href="#joms-app--136">JS Photos</a>
+        <a href="#joms-app--142">JS Videos</a>
+    </div>
 
+    <div id="joms-app--136" class="joms-tab__content active">
+        <div class="joms-module">
+            <ul class="joms-list--thumbnail">
+                <li class="joms-list__item">
+                    <a href="javascript:void(0);" onclick="joms.api.photoOpen('40', '6');">
+                        <img title="Uploaded by Siyabonga" src="https://radapps.co.za/digiinc/images/avatar/thumb_a45a72dd30f336eed66ded609c40aa18.jpg" alt="Siyabonga">
+                    </a>
+                </li>
+                <li class="joms-list__item">
+                    <a href="javascript:void(0);" onclick="joms.api.photoOpen('32', '5');">
+                        <img title="Uploaded by Flamingo" src="https://radapps.co.za/digiinc/images/avatar/thumb_7afd0eceea70c74f9c75fb4a950b98fd.png" alt="Flamingo">
+                    </a>
+                </li>
+                <li class="joms-list__item">
+                    <a href="javascript:void(0);" onclick="joms.api.photoOpen('29', '4');">
+                        <img title="Uploaded by Zero" src="https://radapps.co.za/digiinc/images/avatar/thumb_910a7762056ff0a32502045b33641ebd.jpg" alt="Zero">
+                    </a>
+                </li>
+                <li class="joms-list__item">
+                    <a href="javascript:void(0);" onclick="joms.api.photoOpen('20', '3');">
+                        <img title="Uploaded by Kamogelo Ngwenya" src="https://radapps.co.za/digiinc/images/avatar/thumb_d8b16c807d47ef139802a298f7658ce9.jpg" alt="Kamogelo Ngwenya">
+                    </a>
+                </li>
+                <li class="joms-list__item">
+                    <a href="javascript:void(0);" onclick="joms.api.photoOpen('10', '2');">
+                        <img title="Uploaded by Mathapelo" src="https://radapps.co.za/digiinc/images/avatar/thumb_0ff8dc39d41e9ed2eff5f04941374840.png" alt="Mathapelo">
+                    </a>
+                </li>
+                <li class="joms-list__item">
+                    <a href="javascript:void(0);" onclick="joms.api.photoOpen('2', '1');">
+                        <img title="Uploaded by Taks the Dev" src="https://radapps.co.za/digiinc/images/avatar/thumb_a0f6fb3384b99f1f835911df865ac010.png" alt="Taks the Dev">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="joms-app--142" class="joms-tab__content">
+        <div class="joms-module">
+            <div class="joms-blankslate">No public videos available.</div>
+            <a href="/digiinc/index.php/colab/videos" class="joms-button--link">
+                <small>View all videos</small>
+            </a>
+        </div>
     </div>
 </div>
 
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 20px;
+    }
 
+    .container {
+        max-width: 800px;
+        margin: auto;
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+    }
 
-<div class="page-content">
-    <div class="container">
+    .joms-tab__bar {
+        display: flex;
+        background: #333;
+        color: #fff;
+    }
 
-        <div class="row">
+    .joms-tab__bar a {
+        flex: 1;
+        padding: 15px;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+        transition: background 0.3s;
+    }
 
-            <div class="col-lg-10 mx-auto">
-                <div class="blog-details">
-                    <div class="blog-detail-img">
-                        <img src="assets/img/blog/blog-large-01.jpg" class="img-fluid" alt="img">
-                    </div>
-                    <div class="blog-wrap">
-                        <p>Digi Inc added a new event</p>
-                        <p>10 months ago</p>
-                        <p><strong>Women in Tech Experience 2023</strong></p>
-                        <p>This year, the unique event calls on women from all corners of the tech world to unite and join the SHEvolution movement, envisioning a world where...</p>
-                        <p><strong>Wednesday, 18 October 2023 09:00 AM</strong></p>
-                        <p>Johannesburg, South Africa</p>
-                        <p><strong>Taks the Dev</strong></p>
-                    </div>
-                    <div class="blog-author">
-                        <div class="author-img">
-                            <img src="assets/img/user/user-06.jpg" class="img-fluid" alt="img">
-                        </div>
-                        <div class="author-detail">
-                            <h5>Author</h5>
-                            <h6>Robert Hollenbeck</h6>
-                            <p>I am an experienced project manager and consultant with a rich background in digital project execution and freelance talent acquisition. With over 10 years in the industry, I have mastered the art of identifying and collaborating with top-tier freelance talent across various fields, including technology, marketing, and creative services.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    .joms-tab__bar a:hover,
+    .joms-tab__bar a.active {
+        background: #555;
+    }
+
+    .joms-tab__content {
+        display: none;
+        padding: 20px;
+    }
+
+    .joms-tab__content.active {
+        display: block;
+    }
+
+    .joms-blankslate {
+        color: #888;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .joms-button--link {
+        display: inline-block;
+        margin-top: 10px;
+        color: #333;
+        text-decoration: none;
+        border: 1px solid #333;
+        padding: 5px 10px;
+        border-radius: 4px;
+        transition: background 0.3s, color 0.3s;
+    }
+
+    .joms-button--link:hover {
+        background: #333;
+        color: #fff;
+    }
+
+    .joms-list--thumbnail {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .joms-list__item {
+        margin: 10px;
+        width: calc(33.333% - 20px);
+    }
+
+    .joms-list__item img {
+        max-width: 100%;
+        border-radius: 8px;
+        transition: transform 0.3s;
+    }
+
+    .joms-list__item img:hover {
+        transform: scale(1.05);
+    }
+</style>
+
+<script>
+    document.querySelectorAll('.joms-tab__bar a').forEach(tab => {
+        tab.addEventListener('click', function(event) {
+            event.preventDefault();
+            document.querySelectorAll('.joms-tab__bar a').forEach(link => link.classList.remove('active'));
+            document.querySelectorAll('.joms-tab__content').forEach(content => content.classList.remove('active'));
             
-        </div>
+            this.classList.add('active');
+            document.querySelector(this.getAttribute('href')).classList.add('active');
+        });
+    });
+</script>
 
+<section class="events">
+    <h2>Women in Tech Experience 2023</h2>
+    <img src="https://radapps.co.za/digiinc/components/com_community/assets/cover-event.png" alt="Women in Tech Experience 2023">
+    <p>This year, the unique event calls on women from all corners of the tech world to unite and join the SHEvolution movement.</p>
+    <div class="details">
+        <div>
+            <h4>Date</h4>
+            <p>18 October 2023</p>
+        </div>
+        <div>
+            <h4>Location</h4>
+            <p>Johannesburg, South Africa</p>
+        </div>
     </div>
-</div>
+    <p>Join us for an inspiring event that brings together women in tech to share their experiences, network, and empower each other.</p>
+    <section>
+
+<style>
+    .container {
+        max-width: 800px;
+        margin: auto;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .joms-stream__header, .joms-stream__body, .joms-stream__actions, .joms-stream__status {
+        margin-bottom: 20px;
+    }
+    .joms-avatar--stream {
+        display: inline-block;
+        vertical-align: top;
+    }
+    .joms-avatar--stream img {
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+    }
+    .joms-stream__meta {
+        display: inline-block;
+        margin-left: 10px;
+        vertical-align: top;
+    }
+    .joms-stream__meta a {
+        text-decoration: none;
+        color: #333;
+    }
+    .joms-stream__body h4 {
+        margin: 10px 0;
+    }
+    .joms-list__item {
+        list-style: none;
+        margin: 5px 0;
+    }
+    .joms-icon {
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+        margin-right: 5px;
+    }
+    .joms-reactions__list {
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+    }
+    .joms-reactions__item {
+        display: inline-block;
+        margin-right: 5px;
+        cursor: pointer;
+    }
+    .joms-comment {
+        border-top: 1px solid #ddd;
+        padding-top: 10px;
+    }
+</style>
+
+<div class="container">
+    <div class="joms-stream__header">
+        <div class="joms-avatar--stream">
+            <a href="/digiinc/index.php/cowork/profile/edit-profile/103-administrator">
+                <img src="https://radapps.co.za/digiinc/components/com_community/assets/user-Male-thumb.png" alt="Digi Inc">
+            </a>
+        </div>
+        <div class="joms-stream__meta">
+            <a href="/digiinc/index.php/cowork/profile/edit-profile/103-administrator" class="joms-stream__user">Digi Inc</a>
+            added a new event
+            <span class="joms-stream__time"><small>10 months ago</small></span>
+        </div>
+    </div>
+    <div class="joms-stream__body">
+        <div class="joms-media">
+            <h4 class="joms-text--title"><a href="/digiinc/index.php/colab/events/viewevent/1-women-in-tech-experience-2023">Women in Tech Experience 2023</a></h4>
+            <p>This year, the unique event calls on women from all corners of the tech world to unite and join the SHEvolution movement, envisioning a world where...</p>
+            <ul class="joms-list">
+                <li class="joms-list__item">
+                    <svg viewBox="0 0 16 18" class="joms-icon">
+                        <use xlink:href="#joms-icon-calendar"></use>
+                    </svg>
+                    Wednesday, 18 October 2023 09:00 AM
+                </li>
+                <li class="joms-list__item">
+                    <svg viewBox="0 0 16 16" class="joms-icon">
+                        <use xlink:href="#joms-icon-location"></use>
+                    </svg>
+                    Johannesburg, South Africa
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="joms-stream__actions"></div>
+    <div class="joms-stream__status">
+        <div class="joms-stream__reactions">
+            <ul class="joms-reactions__list">
+                <li style="z-index: 100;">
+                    <div class="joms-reactions__item reaction-like" title="1 people" data-count="1" data-reactid="1" data-uid="1">
+                        👍
+                    </div>
+                </li>
+            </ul>
+            <a class="joms-stream__reactions-text" href="#">
+                Taks the Dev
+            </a>
+        </div>
+    </div>
+    <div class="joms-comment joms-js--comments joms-js--comments-6" data-id="6"></div>
+</div> 
+</section>
 
 <div class="blog-pagination">
 <div class="row">
@@ -679,8 +733,6 @@
         </div>
     </div>
 </div>
-
-
 <!-- Footer -->
 <footer id="sp-footer">
     <div class="container">
@@ -700,14 +752,16 @@
                                     <li class="item-159"><a href="/digiinc/index.php/privacy-policy">Privacy Policy</a></li>
                                 </ul>
                             </div>
-        </div> 
-    </div> 
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- Close .row -->
+        </div> <!-- Close .container-inner -->
+    </div> <!-- Close .container -->
 </footer> 
-</section>
-</div>
-</div>
-@endsection 
 
+</section> <!-- Close the previous section -->
+</div> <!-- Close the previous .container or .wrapper -->
+</div> <!-- Close the previous .container or .wrapper -->
 
-
-
+@endsection
