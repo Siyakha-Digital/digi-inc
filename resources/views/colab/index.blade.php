@@ -21,8 +21,8 @@
             }
 
             header, footer {
-                background-color: #000; /* Black */
-                color: #fff; /* White */
+                background-color: #FF5722; /* Orange */
+                color: #fff;
                 padding: 15px 20px;
                 text-align: center;
             }
@@ -32,19 +32,19 @@
                 padding: 8px 16px;
                 border: none;
                 border-radius: 5px;
-                background-color: #000; /* Black */
-                color: #fff; /* White */
+                background-color: #FF5722; /* Orange */
+                color: #fff;
                 cursor: pointer;
                 transition: background-color 0.3s ease;
             }
 
             nav button:hover {
-                background-color: #333; /* Darker Gray */
+                background-color: #E64A19; /* Darker Orange */
             }
 
             .hero {
                 text-align: center;
-                background: linear-gradient(to right, #000, #333); /* Black to Gray Gradient */
+                background: linear-gradient(to right, #FF5722, #E64A19); /* Orange Gradient */
                 color: white;
                 padding: 60px 20px;
                 border-radius: 0 0 15px 15px;
@@ -62,7 +62,7 @@
 
             .hero button {
                 background-color: #fff;
-                color: #000; /* Black */
+                color: #FF5722; /* Orange */
                 border: none;
                 padding: 10px 20px;
                 font-size: 1rem;
@@ -72,7 +72,7 @@
             }
 
             .hero button:hover {
-                background-color: #e6e6e6; /* Light Gray */
+                background-color: #f5f5f5; /* Light Gray */
             }
 
             .login-form {
@@ -82,12 +82,13 @@
                 background-color: #fff;
                 border-radius: 8px;
                 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                border: 1px solid #FF5722; /* Orange border */
             }
 
             .login-form h2 {
                 text-align: center;
                 margin-bottom: 20px;
-                color: #000; /* Black */
+                color: #FF5722; /* Orange */
             }
 
             .login-form input, .login-form button {
@@ -101,12 +102,12 @@
             }
 
             .login-form input:focus {
-                border-color: #000; /* Black */
+                border-color: #FF5722; /* Orange */
                 outline: none;
             }
 
             .login-form button {
-                background-color: #000; /* Black */
+                background-color: #FF5722; /* Orange */
                 color: white;
                 border: none;
                 cursor: pointer;
@@ -114,7 +115,7 @@
             }
 
             .login-form button:hover {
-                background-color: #333; /* Darker Gray */
+                background-color: #E64A19; /* Darker Orange */
             }
 
             .login-form div {
@@ -124,7 +125,7 @@
             }
 
             .login-form a {
-                color: #000; /* Black */
+                color: #FF5722; /* Orange */
                 text-decoration: none;
                 font-size: 0.9rem;
             }
@@ -143,7 +144,7 @@
             }
 
             .events h2 {
-                color: #000; /* Black */
+                color: #FF5722; /* Orange */
                 font-size: 2rem;
                 margin-bottom: 15px;
             }
@@ -170,7 +171,7 @@
             .events .details div {
                 flex: 1;
                 min-width: 200px;
-                background-color: #000; /* Black */
+                background-color: #FF5722; /* Orange */
                 color: white;
                 padding: 10px;
                 border-radius: 8px;
@@ -180,194 +181,270 @@
                 margin: 0;
                 font-size: 1.2rem;
             }
+
+            .joms-body {
+                display: flex;
+                gap: 20px;
+                margin: 40px 0;
+            }
+
+            .joms-sidebar {
+                width: 25%;
+                background-color: #FF5722; /* Orange */
+                padding: 15px;
+                border-radius: 8px;
+                color: white;
+            }
+
+            .joms-main-content {
+                width: 75%;
+            }
+
+            .joms-tab-bar {
+                margin-bottom: 20px;
+            }
+
+            .joms-tab-bar a {
+                padding: 10px 15px;
+                background-color: #FF5722; /* Orange */
+                color: white;
+                border-radius: 5px;
+                text-decoration: none;
+                margin-right: 10px;
+            }
+
+            .joms-tab-bar a.active {
+                background-color: #E64A19; /* Darker Orange */
+            }
+
+            .joms-tab-content {
+                padding: 20px;
+                background-color: #fff;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+
+            .joms-member-module ul.joms-list-thumbnail {
+                list-style: none;
+                padding: 0;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+
+            .joms-member-module ul.joms-list-thumbnail li.joms-list-item {
+                flex: 1 1 100px;
+                text-align: center;
+            }
+
+            .joms-member-module a.joms-avatar img {
+                border-radius: 50%;
+                width: 100px;
+                height: 100px;
+                object-fit: cover;
+            }
+
+            .joms-member-module .joms-view-all {
+                display: block;
+                text-align: center;
+                margin-top: 20px;
+                color: #FF5722; /* Orange */
+                text-decoration: none;
+                font-weight: bold;
+            }
         </style>
         
-        <div class="joms-body">
-            <div class="joms-sidebar"></div>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
 
-            <div class="joms-main-content">
-                <div class="joms-tab-bar">
-                    <a href="#joms-app--129" class="active">JS Members</a>
-                </div>
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
 
-                <div id="joms-app--129" class="joms-tab-content">
-                    <div class="joms-module">
-                        <div class="joms-member-module">
-                            <div class="joms-gap"></div>
-                            <ul class="joms-list-thumbnail">
-                                <!-- Member Thumbnails -->
-                                <li class="joms-list-item">
-                                    <a href="/digiinc/index.php/cowork/profile/edit-profile/119-siyabonga" class="joms-avatar">
-                                        <img src="https://radapps.co.za/digiinc/images/avatar/thumb_3fdff448767f45551b3a2996.jpg" alt="Siyabonga" title="Siyabonga">
-                                    </a>
-                                </li>
-                                <!-- Repeat other list items -->
-                            </ul>
-                            <div class="joms-gap"></div>
-                            <a href="/digiinc/index.php/colab/search/browse" class="joms-view-all">
-                                <small>View All (17)</small>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+        .joms-tab__bar {
+            display: flex;
+            background: #333;
+            color: #fff;
+            border-radius: 8px 8px 0 0;
+            overflow: hidden;
+        }
+
+        .joms-tab__bar a {
+            flex: 1;
+            padding: 15px;
+            text-align: center;
+            text-decoration: none;
+            color: #fff;
+            transition: background 0.3s;
+        }
+
+        .joms-tab__bar a:hover,
+        .joms-tab__bar a.active {
+            background: #555;
+        }
+
+        .joms-tab__content {
+            display: none;
+            padding: 20px;
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-top: none;
+            border-radius: 0 0 8px 8px;
+        }
+
+        .joms-tab__content.active {
+            display: block;
+        }
+
+        .joms-blankslate {
+            color: #888;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .joms-button--link {
+            display: inline-block;
+            margin-top: 10px;
+            color: #333;
+            text-decoration: none;
+            border: 1px solid #333;
+            padding: 5px 10px;
+            border-radius: 4px;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        .joms-button--link:hover {
+            background: #333;
+            color: #fff;
+        }
+
+        .joms-list--thumbnail {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .joms-list__item {
+            margin: 10px;
+            width: calc(33.333% - 20px);
+        }
+
+        .joms-list__item img {
+            max-width: 100%;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+
+        .joms-list__item img:hover {
+            transform: scale(1.05);
+        }
+
+        .event-details, .forum-discussion, .related-posts, .footer {
+            margin: 20px 0;
+        }
+
+        .event-details h2, .forum-discussion h2, .related-posts h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .related-posts img {
+            max-width: 150px;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: #777;
+        }
+
+        .footer a {
+            color: #777;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+
+    <div class="container">
+        <div class="joms-tab__bar">
+            <a class="active" href="#joms-app--129">JS Members</a>
+            <a href="#joms-app--136">JS Photos</a>
+            <a href="#joms-app--142">JS Videos</a>
+        </div>
+
+        <div id="joms-app--129" class="joms-tab__content active">
+            <div class="joms-module">
+                <ul class="joms-list--thumbnail">
+                    <!-- Member Thumbnails -->
+                    <li class="joms-list__item">
+                        <a href="/digiinc/index.php/cowork/profile/edit-profile/119-siyabonga" class="joms-avatar">
+                            <img src="https://radapps.co.za/digiinc/images/avatar/thumb_3fdff448767f45551b3a2996.jpg" alt="Siyabonga" title="Siyabonga">
+                        </a>
+                    </li>
+                    <!-- Repeat other list items as needed -->
+                </ul>
+                <a href="/digiinc/index.php/colab/search/browse" class="joms-view-all">
+                    <small>View All (17)</small>
+                </a>
             </div>
-            <div class="container">
-    <div class="joms-tab__bar">
-        <a class="active" href="#joms-app--136">JS Photos</a>
-        <a href="#joms-app--142">JS Videos</a>
-    </div>
-
-    <div id="joms-app--136" class="joms-tab__content active">
-        <div class="joms-module">
-            <ul class="joms-list--thumbnail">
-                <li class="joms-list__item">
-                    <a href="javascript:void(0);" onclick="joms.api.photoOpen('40', '6');">
-                        <img title="Uploaded by Siyabonga" src="https://radapps.co.za/digiinc/images/avatar/thumb_a45a72dd30f336eed66ded609c40aa18.jpg" alt="Siyabonga">
-                    </a>
-                </li>
-                <li class="joms-list__item">
-                    <a href="javascript:void(0);" onclick="joms.api.photoOpen('32', '5');">
-                        <img title="Uploaded by Flamingo" src="https://radapps.co.za/digiinc/images/avatar/thumb_7afd0eceea70c74f9c75fb4a950b98fd.png" alt="Flamingo">
-                    </a>
-                </li>
-                <li class="joms-list__item">
-                    <a href="javascript:void(0);" onclick="joms.api.photoOpen('29', '4');">
-                        <img title="Uploaded by Zero" src="https://radapps.co.za/digiinc/images/avatar/thumb_910a7762056ff0a32502045b33641ebd.jpg" alt="Zero">
-                    </a>
-                </li>
-                <li class="joms-list__item">
-                    <a href="javascript:void(0);" onclick="joms.api.photoOpen('20', '3');">
-                        <img title="Uploaded by Kamogelo Ngwenya" src="https://radapps.co.za/digiinc/images/avatar/thumb_d8b16c807d47ef139802a298f7658ce9.jpg" alt="Kamogelo Ngwenya">
-                    </a>
-                </li>
-                <li class="joms-list__item">
-                    <a href="javascript:void(0);" onclick="joms.api.photoOpen('10', '2');">
-                        <img title="Uploaded by Mathapelo" src="https://radapps.co.za/digiinc/images/avatar/thumb_0ff8dc39d41e9ed2eff5f04941374840.png" alt="Mathapelo">
-                    </a>
-                </li>
-                <li class="joms-list__item">
-                    <a href="javascript:void(0);" onclick="joms.api.photoOpen('2', '1');">
-                        <img title="Uploaded by Taks the Dev" src="https://radapps.co.za/digiinc/images/avatar/thumb_a0f6fb3384b99f1f835911df865ac010.png" alt="Taks the Dev">
-                    </a>
-                </li>
-            </ul>
         </div>
-    </div>
 
-    <div id="joms-app--142" class="joms-tab__content">
-        <div class="joms-module">
-            <div class="joms-blankslate">No public videos available.</div>
-            <a href="/digiinc/index.php/colab/videos" class="joms-button--link">
-                <small>View all videos</small>
-            </a>
+        <div id="joms-app--136" class="joms-tab__content">
+            <div class="joms-module">
+                <ul class="joms-list--thumbnail">
+                    <li class="joms-list__item">
+                        <a href="javascript:void(0);" onclick="joms.api.photoOpen('40', '6');">
+                            <img title="Uploaded by Siyabonga" src="https://radapps.co.za/digiinc/images/avatar/thumb_a45a72dd30f336eed66ded609c40aa18.jpg" alt="Siyabonga">
+                        </a>
+                    </li>
+                    <!-- Repeat other list items as needed -->
+                </ul>
+            </div>
         </div>
-    </div>
-</div>
 
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #f4f4f4;
-        margin: 0;
-        padding: 20px;
-    }
+        <div id="joms-app--142" class="joms-tab__content">
+            <div class="joms-module">
+                <div class="joms-blankslate">No public videos available.</div>
+                <a href="/digiinc/index.php/colab/videos" class="joms-button--link">
+                    <small>View all videos</small>
+                </a>
+            </div>
+        </div>
 
-    .container {
-        max-width: 800px;
-        margin: auto;
-        background: #fff;
-        border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        overflow: hidden;
-    }
+        <script>
+            document.querySelectorAll('.joms-tab__bar a').forEach(tab => {
+                tab.addEventListener('click', function (event) {
+                    event.preventDefault();
+                    document.querySelectorAll('.joms-tab__bar a').forEach(link => link.classList.remove('active'));
+                    document.querySelectorAll('.joms-tab__content').forEach(content => content.classList.remove('active'));
+    
+                    this.classList.add('active');
+                    document.querySelector(this.getAttribute('href')).classList.add('active');
+                });
+            });
+        </script>
 
-    .joms-tab__bar {
-        display: flex;
-        background: #333;
-        color: #fff;
-    }
-
-    .joms-tab__bar a {
-        flex: 1;
-        padding: 15px;
-        text-align: center;
-        text-decoration: none;
-        color: #fff;
-        transition: background 0.3s;
-    }
-
-    .joms-tab__bar a:hover,
-    .joms-tab__bar a.active {
-        background: #555;
-    }
-
-    .joms-tab__content {
-        display: none;
-        padding: 20px;
-    }
-
-    .joms-tab__content.active {
-        display: block;
-    }
-
-    .joms-blankslate {
-        color: #888;
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    .joms-button--link {
-        display: inline-block;
-        margin-top: 10px;
-        color: #333;
-        text-decoration: none;
-        border: 1px solid #333;
-        padding: 5px 10px;
-        border-radius: 4px;
-        transition: background 0.3s, color 0.3s;
-    }
-
-    .joms-button--link:hover {
-        background: #333;
-        color: #fff;
-    }
-
-    .joms-list--thumbnail {
-        list-style: none;
-        padding: 0;
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .joms-list__item {
-        margin: 10px;
-        width: calc(33.333% - 20px);
-    }
-
-    .joms-list__item img {
-        max-width: 100%;
-        border-radius: 8px;
-        transition: transform 0.3s;
-    }
-
-    .joms-list__item img:hover {
-        transform: scale(1.05);
-    }
-</style>
-
-<script>
-    document.querySelectorAll('.joms-tab__bar a').forEach(tab => {
-        tab.addEventListener('click', function(event) {
-            event.preventDefault();
-            document.querySelectorAll('.joms-tab__bar a').forEach(link => link.classList.remove('active'));
-            document.querySelectorAll('.joms-tab__content').forEach(content => content.classList.remove('active'));
-            
-            this.classList.add('active');
-            document.querySelector(this.getAttribute('href')).classList.add('active');
-        });
-    });
-</script>
-
+      
+           
+                
 <section class="events">
     <h2>Women in Tech Experience 2023</h2>
     <img src="https://radapps.co.za/digiinc/components/com_community/assets/cover-event.png" alt="Women in Tech Experience 2023">
