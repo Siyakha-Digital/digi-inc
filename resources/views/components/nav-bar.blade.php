@@ -12,18 +12,18 @@
 
                 {{-- Application Logo --}}
                 <a href="{{ route('home') }}" class="navbar-brand logo">
-                    <img src="https://radapps.co.za/digiinc/images/digi-inc-logo-01.png" class="img-fluid" alt="Logo">
+                    <img src="{{ asset('assets/img/logo.png')}}" class="img-fluid" alt="Logo">
                 </a>
                 {{-- Application Name Logo Style --}}
                 <a href="{{ route('home') }}" class="navbar-brand logo-small">
-                    <img src="https://radapps.co.za/digiinc/images/digi-inc-logo-01.png" class="img-fluid" alt="Logo">
+                    <img src="{{ asset('assets/img/logo.png')}}" class="img-fluid" alt="Logo">
                 </a>
             </div>
 
             <div class="main-menu-wrapper">
                 <div class="menu-header">
                     <a href="{{ route('home') }}" class="menu-logo">
-                        <img src="https://radapps.co.za/digiinc/images/digi-inc-logo-01.png" class="img-fluid" alt="Logo">
+                        <img src="{{ asset('assets/img/logo.png')}}" class="img-fluid" alt="Logo">
                     </a>
                     <a id="menu_close" class="menu-close" onclick="closeMenu()">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

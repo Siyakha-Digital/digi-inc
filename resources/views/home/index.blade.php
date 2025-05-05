@@ -182,7 +182,7 @@ Blogs and articles from subject matter experts, technical training at reduced pr
 
                     <div class="col-lg-6 col-md-12 d-flex">
                         <div class="contact-img">
-                            <img src="https://radapps.co.za/digiinc/images/digi-inc-logo-01.png" class="img-fluid" alt="img">
+                            <img src="{{ asset('assets/img/logo.png')}}" class="img-fluid" alt="img">
                         </div>
                     </div>
 

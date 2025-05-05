@@ -6,7 +6,7 @@
                 <div id="sp-footer1" class="col-lg-6">
                     <div class="sp-column">
                         <span class="sp-copyright">
-                            © 2024 Digi.Inc. Developed by Siyakha Digital (Pty) Ltd, and its affiliates | All rights reserved
+                            © 2025 Digi.Inc. Developed by Siyakha Digital (Pty) Ltd, and its affiliates | All rights reserved
                         </span>
                     </div>
                 </div>
